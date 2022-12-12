@@ -6,7 +6,7 @@
         <title>Version 0.0.2</title>
         <description>Digital Factory make facotry manager can monitor and manage informations of manufacturing, like quantity,quantity,status etc。</description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <enclosure url="https://github.com/chenyan1982/Digital-Factory/releases/download/untagged-f5b5377b6a3d2581b7e7/digital-factory.apk" sparkle:version="0.0.2" sparkle:os="android"/>
+        <enclosure url="https://github.com/chenyan1982/Digital-Factory/releases/download/untagged-f5b5377b6a3d2581b7e7/digital-factory.apk" sparkle:version="0.0.2" sparkle:os="android" />
         <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
     </item>
   </channel>
