@@ -1,6 +1,5 @@
 /android
 /build
 /ios
-./dart_tool
 .flutter-plugins
 .flutter-plugins-dependencies
