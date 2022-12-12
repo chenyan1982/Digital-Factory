@@ -8,7 +8,9 @@
         <sparkle:informationalUpdate />
         <description>Fix a few bugs。</description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <link>https://github.com/chenyan1982/Digital-Factory/releases/download/untagged-f5b5377b6a3d2581b7e7/digital-factory.apk</link>
+        <link>https://github.com/chenyan1982/Digital-Factory/releases</link>
+        <enclosure url="https://github.com/chenyan1982/Digital-Factory/releases/download/untagged-f5b5377b6a3d2581b7e7/digital-factory.apk"
+            type="application/octet-stream" />
     </item>
   </channel>
 </rss>
