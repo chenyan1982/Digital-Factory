@@ -9,7 +9,7 @@
         <description>Fix a few bugs。</description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
         <link>https://github.com/chenyan1982/Digital-Factory/releases</link>
-        <enclosure url="http://qiniu.lianzhuangdata.com.cn/upload/20221212/digital-factory.apk"
+        <enclosure url="https://github.com/chenyan1982/Digital-Factory/releases/download/v0.0.2/digital-factory.apk"
             type="application/octet-stream" />
     </item>
   </channel>
