@@ -52,14 +52,18 @@ class _HomePageWidgetState extends State<HomePageWidget>
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                     child: Text(
-                      'Notifications',
+                      FFLocalizations.of(context).getText(
+                        'zgvfsj1c' /* Notifications */,
+                      ),
                       style: FlutterFlowTheme.of(context).title2,
                     ),
                   ),
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(16, 4, 0, 0),
                     child: Text(
-                      'Below are you new notifications.',
+                      FFLocalizations.of(context).getText(
+                        'vi2nyjjh' /* Below are you new notification... */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText2,
                     ),
                   ),
@@ -131,7 +135,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                'Username here',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'w20qzy9r' /* Username here */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .subtitle1,
@@ -144,7 +151,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              'cunsd5z0' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -160,7 +169,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'e2vfwyui' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -180,7 +192,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'gw7j3ise' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -257,7 +272,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Username here',
+                                          FFLocalizations.of(context).getText(
+                                            'j1uzjil0' /* Username here */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
                                         ),
@@ -266,7 +283,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              'vww8fm3v' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -282,7 +301,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'vrl92nk0' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -302,7 +324,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'ypwg6dnl' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -379,7 +404,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Username here',
+                                          FFLocalizations.of(context).getText(
+                                            '3gcwkub9' /* Username here */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
                                         ),
@@ -388,7 +415,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              'qjifeynz' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -404,7 +433,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'qo1r6531' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -424,7 +456,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'gxsnut94' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -537,7 +572,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        '欢迎来到DigitalFactory',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'byoctihc' /* Welcome to DigitalFactory */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -549,7 +588,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 .fromSTEB(
                                                                     0, 4, 0, 0),
                                                         child: Text(
-                                                          '你好 游客! 欢迎回来.',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            '7m5o70u8' /* Hello Guest! Welcome back. */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText2,
@@ -607,7 +650,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                   .fromSTEB(16,
                                                                       0, 16, 0),
                                                           child: Text(
-                                                            'Create',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'qbhcr7z8' /* Create */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -742,7 +789,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                         ),
                                                         child: Badge(
                                                           badgeContent: Text(
-                                                            '1',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              '8dok0sfa' /* 1 */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -884,7 +935,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              '生产概览',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'hmzlh35e' /* OVERVIEW */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .title2,
@@ -926,7 +980,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              '总产量',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'gh6q6yoe' /* TOTAL OUTPUT */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .title3
@@ -976,7 +1034,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                             0,
                                                                             0),
                                                                     child: Text(
-                                                                      '500.20千万',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'saf5ng86' /* 500.20B */,
+                                                                      ),
                                                                       style:
                                                                           TextStyle(
                                                                         color: FlutterFlowTheme.of(context)
@@ -1050,7 +1112,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             .spaceBetween,
                                                     children: [
                                                       Text(
-                                                        '平均稼动率',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '21x8wjwg' /* AVG EFFICENCY */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1135,7 +1201,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                               AlignmentDirectional(
                                                                   0, 0),
                                                           child: Text(
-                                                            '95.76%',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'nilobwjj' /* 95.76% */,
+                                                            ),
                                                             style: GoogleFonts
                                                                 .getFont(
                                                               'Noto Sans',
@@ -1174,7 +1244,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          '今日总产量',
+                                          FFLocalizations.of(context).getText(
+                                            '10re4v7b' /* OUTPUT TODAY */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .title2,
                                         ),
@@ -1183,7 +1255,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            '25万',
+                                            FFLocalizations.of(context).getText(
+                                              'arnt20hm' /* 0.25M */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .title1
                                                 .override(
@@ -1279,14 +1353,22 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 ),
                                                 axisBounds: AxisBounds(),
                                                 xAxisLabelInfo: AxisLabelInfo(
-                                                  title: 'Timeline',
+                                                  title: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'i3pymgyw' /* Timeline */,
+                                                  ),
                                                   titleTextStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .bodyText2,
                                                 ),
                                                 yAxisLabelInfo: AxisLabelInfo(
-                                                  title: 'Spend',
+                                                  title: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'ven1qpwz' /* Spend */,
+                                                  ),
                                                   titleTextStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -1314,7 +1396,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Recent Transactions',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'j2pwgghh' /* Recent Transactions */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .title2,
@@ -1323,7 +1408,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 4, 0, 0),
                                               child: Text(
-                                                'A list of all your transactions this week.',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'x3bosezi' /* A list of all your transaction... */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2,
@@ -1466,7 +1554,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Insurance',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'ugexvbho' /* Insurance */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1478,7 +1570,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                               .fromSTEB(
                                                                   0, 4, 0, 0),
                                                       child: Text(
-                                                        'Property Coverage',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '4sj6q249' /* Property Coverage */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1506,7 +1602,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Insurance',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'g4q7em13' /* Insurance */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1518,7 +1618,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 .fromSTEB(
                                                                     0, 4, 0, 0),
                                                         child: Text(
-                                                          'Property Coverage',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'uyez15e0' /* Property Coverage */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText2,
@@ -1545,7 +1649,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Insurance',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'g8lm8mmf' /* Insurance */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1557,7 +1665,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 .fromSTEB(
                                                                     0, 4, 0, 0),
                                                         child: Text(
-                                                          'Property Coverage',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'zfq2nr46' /* Property Coverage */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText2,
@@ -1575,7 +1687,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                     CrossAxisAlignment.end,
                                                 children: [
                                                   Text(
-                                                    'Mon, 4',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'vswdglna' /* Mon, 4 */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .subtitle1,
@@ -1586,7 +1701,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             .fromSTEB(
                                                                 0, 4, 0, 0),
                                                     child: Text(
-                                                      'Date',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '8m2u21ii' /* Date */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1636,7 +1755,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Insurance',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'gyqmfzpj' /* Insurance */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1648,7 +1771,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                               .fromSTEB(
                                                                   0, 4, 0, 0),
                                                       child: Text(
-                                                        'Property Coverage',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'foucb0tm' /* Property Coverage */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1676,7 +1803,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Insurance',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '6flytqn1' /* Insurance */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1688,7 +1819,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 .fromSTEB(
                                                                     0, 4, 0, 0),
                                                         child: Text(
-                                                          'Property Coverage',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'd2nr9orx' /* Property Coverage */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText2,
@@ -1715,7 +1850,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Insurance',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'ikhk2l97' /* Insurance */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1727,7 +1866,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 .fromSTEB(
                                                                     0, 4, 0, 0),
                                                         child: Text(
-                                                          'Property Coverage',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'ipmv5p5p' /* Property Coverage */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText2,
@@ -1745,7 +1888,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                     CrossAxisAlignment.end,
                                                 children: [
                                                   Text(
-                                                    'Thu, 9',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '06fmgbx1' /* Thu, 9 */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .subtitle1,
@@ -1756,7 +1902,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             .fromSTEB(
                                                                 0, 4, 0, 0),
                                                     child: Text(
-                                                      'Date',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'okhw972o' /* Date */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)

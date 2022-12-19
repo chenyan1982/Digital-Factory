@@ -66,7 +66,9 @@ class _AltNav2WidgetState extends State<AltNav2Widget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                   child: Text(
-                    'MENU',
+                    FFLocalizations.of(context).getText(
+                      'bpjevkz3' /* MENU */,
+                    ),
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyText1,
                   ),

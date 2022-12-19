@@ -77,7 +77,9 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                         child: Text(
-                          ' 首页',
+                          FFLocalizations.of(context).getText(
+                            'e3ap1bhd' /* HOME */,
+                          ),
                           style: FlutterFlowTheme.of(context).bodyText2,
                         ),
                       ),
@@ -106,7 +108,9 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                         child: Text(
-                          '设备',
+                          FFLocalizations.of(context).getText(
+                            'zu0rlxg9' /* DEVICE */,
+                          ),
                           style: FlutterFlowTheme.of(context).bodyText2,
                         ),
                       ),

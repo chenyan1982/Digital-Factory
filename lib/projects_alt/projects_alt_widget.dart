@@ -64,14 +64,18 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                     child: Text(
-                      'Notifications',
+                      FFLocalizations.of(context).getText(
+                        'el80tljz' /* Notifications */,
+                      ),
                       style: FlutterFlowTheme.of(context).title2,
                     ),
                   ),
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(16, 4, 0, 0),
                     child: Text(
-                      'Below are you new notifications.',
+                      FFLocalizations.of(context).getText(
+                        '9kpsnnzx' /* Below are you new notification... */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText2,
                     ),
                   ),
@@ -143,7 +147,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                'Username here',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'cd3w7agg' /* Username here */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .subtitle1,
@@ -156,7 +163,9 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              'l1w4933l' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -172,7 +181,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'zd2zlem4' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -192,7 +204,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'q6mgwuni' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -269,7 +284,9 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Username here',
+                                          FFLocalizations.of(context).getText(
+                                            'dbrtxdiz' /* Username here */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
                                         ),
@@ -278,7 +295,9 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              '14yc3hcd' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -294,7 +313,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'vtcgew8d' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -314,7 +336,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '1pzwvue8' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -391,7 +416,9 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Username here',
+                                          FFLocalizations.of(context).getText(
+                                            'hou27pfm' /* Username here */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
                                         ),
@@ -400,7 +427,9 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              '342az9yw' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -416,7 +445,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'lvdpi6df' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -436,7 +468,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'quulyr0x' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -565,7 +600,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Your Projects',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'ozby6fpm' /* Your Projects */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .title1,
@@ -574,7 +612,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 4, 0, 0),
                                               child: Text(
-                                                'Your projects are below',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'x8vjabaa' /* Your projects are below */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2,
@@ -688,7 +729,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                 ),
                                                 child: Badge(
                                                   badgeContent: Text(
-                                                    '1',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '96wmfc0j' /* 1 */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText1
@@ -822,7 +866,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Recent Projects',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'rvvnxldf' /* Recent Projects */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .title2,
@@ -831,7 +878,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 4, 0, 0),
                                               child: Text(
-                                                'A list of all your transactions this week.',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'l877nva9' /* A list of all your transaction... */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2,
@@ -976,7 +1026,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Medical App',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '3k0vy7qx' /* Medical App */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -988,7 +1042,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                               .fromSTEB(
                                                                   0, 4, 0, 0),
                                                       child: Text(
-                                                        'Project Name',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'fgwrl4m3' /* Project Name */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1011,7 +1069,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Insurance',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'v5n6na66' /* Insurance */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1023,7 +1085,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                               .fromSTEB(
                                                                   0, 4, 0, 0),
                                                       child: Text(
-                                                        'Property Coverage',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '0m9gbqsl' /* Property Coverage */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1051,7 +1117,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Insurance',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'y0n1hklr' /* Insurance */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1063,7 +1133,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                                 .fromSTEB(
                                                                     0, 4, 0, 0),
                                                         child: Text(
-                                                          'Property Coverage',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'pnbbpt89' /* Property Coverage */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText2,
@@ -1113,7 +1187,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Insurance Calculator',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '97cdo6cl' /* Insurance Calculator */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1125,7 +1203,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                               .fromSTEB(
                                                                   0, 4, 0, 0),
                                                       child: Text(
-                                                        'Property Coverage',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'pd2zfnzz' /* Property Coverage */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1148,7 +1230,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Insurance',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '78x3hq93' /* Insurance */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1160,7 +1246,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                               .fromSTEB(
                                                                   0, 4, 0, 0),
                                                       child: Text(
-                                                        'Property Coverage',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'hjjtzblm' /* Property Coverage */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1188,7 +1278,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Insurance',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'mlfl6qlm' /* Insurance */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1200,7 +1294,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                                 .fromSTEB(
                                                                     0, 4, 0, 0),
                                                         child: Text(
-                                                          'Property Coverage',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'iq9pih2m' /* Property Coverage */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText2,
@@ -1225,7 +1323,9 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Team Tutorials',
+                                        FFLocalizations.of(context).getText(
+                                          '4l2psnhh' /* Team Tutorials */,
+                                        ),
                                         style:
                                             FlutterFlowTheme.of(context).title2,
                                       ),
@@ -1233,7 +1333,9 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0, 4, 0, 8),
                                         child: Text(
-                                          'The latest tutorials posted by your team.',
+                                          FFLocalizations.of(context).getText(
+                                            'mkypctib' /* The latest tutorials posted by... */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText2,
                                         ),
@@ -1361,7 +1463,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                                       AlignmentDirectional(
                                                                           0, 0),
                                                                   child: Text(
-                                                                    '05:03',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '7fdlg2bm' /* 05:03 */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1392,7 +1498,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                                 .fromSTEB(16, 0,
                                                                     0, 0),
                                                         child: Text(
-                                                          '1.Sketch and userflows within your application',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'd9mfy1og' /* 1.Sketch and userflows within ... */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .subtitle1,
@@ -1405,7 +1515,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 16, 0, 0),
                                                   child: Text(
-                                                    'Sketch and userflows within your application are an important part of any problem! We go over the common use cases in order to not make rookie mistakes.',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'sa0ik2ay' /* Sketch and userflows within yo... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -1424,7 +1537,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                       print(
                                                           'Button pressed ...');
                                                     },
-                                                    text: 'Download',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      '5ckpok3e' /* Download */,
+                                                    ),
                                                     icon: Icon(
                                                       Icons
                                                           .cloud_download_rounded,
@@ -1566,7 +1683,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                                       AlignmentDirectional(
                                                                           0, 0),
                                                                   child: Text(
-                                                                    '05:03',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'jhz9fsa9' /* 05:03 */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1597,7 +1718,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                                 .fromSTEB(16, 0,
                                                                     0, 0),
                                                         child: Text(
-                                                          '1.Sketch and userflows within your application',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            '66wtuhmi' /* 1.Sketch and userflows within ... */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .subtitle1,
@@ -1610,7 +1735,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 16, 0, 0),
                                                   child: Text(
-                                                    'Sketch and userflows within your application are an important part of any problem! We go over the common use cases in order to not make rookie mistakes.',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'ov9zuxhx' /* Sketch and userflows within yo... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -1629,7 +1757,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                       print(
                                                           'Button pressed ...');
                                                     },
-                                                    text: 'Download',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'cemc5hqv' /* Download */,
+                                                    ),
                                                     icon: Icon(
                                                       Icons
                                                           .cloud_download_rounded,
@@ -1771,7 +1903,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                                       AlignmentDirectional(
                                                                           0, 0),
                                                                   child: Text(
-                                                                    '05:03',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '78v80877' /* 05:03 */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1802,7 +1938,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                                 .fromSTEB(16, 0,
                                                                     0, 0),
                                                         child: Text(
-                                                          '1.Sketch and userflows within your application',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'suuw2xcc' /* 1.Sketch and userflows within ... */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .subtitle1,
@@ -1815,7 +1955,10 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 16, 0, 0),
                                                   child: Text(
-                                                    'Sketch and userflows within your application are an important part of any problem! We go over the common use cases in order to not make rookie mistakes.',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'gvtkelwh' /* Sketch and userflows within yo... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -1834,7 +1977,11 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                                                       print(
                                                           'Button pressed ...');
                                                     },
-                                                    text: 'Download',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      '1ue8ep7m' /* Download */,
+                                                    ),
                                                     icon: Icon(
                                                       Icons
                                                           .cloud_download_rounded,

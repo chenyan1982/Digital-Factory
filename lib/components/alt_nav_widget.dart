@@ -62,7 +62,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                       child: Text(
-                        'MENU',
+                        FFLocalizations.of(context).getText(
+                          'h834rd3x' /* MENU */,
+                        ),
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyText1,
                       ),
@@ -260,7 +262,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                   mainAxisSize: MainAxisSize.max,
                   children: [
                     Text(
-                      'Platinum',
+                      FFLocalizations.of(context).getText(
+                        'i0qrdyp0' /* Platinum */,
+                      ),
                       style: FlutterFlowTheme.of(context).title2,
                     ),
                   ],
@@ -268,7 +272,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0, 24, 0, 0),
                   child: Text(
-                    'MENU',
+                    FFLocalizations.of(context).getText(
+                      'mg2878en' /* MENU */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText1,
                   ),
                 ),
@@ -300,7 +306,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                           child: Text(
-                            'Home',
+                            FFLocalizations.of(context).getText(
+                              'fwr96f9a' /* Home */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyText1
                                 .override(
@@ -345,7 +353,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                           child: Text(
-                            'Projects',
+                            FFLocalizations.of(context).getText(
+                              'b86hxizm' /* Projects */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyText1
                                 .override(
@@ -390,7 +400,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                           child: Text(
-                            'Team Members',
+                            FFLocalizations.of(context).getText(
+                              '6w1dznz2' /* Team Members */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyText1
                                 .override(
@@ -423,7 +435,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                         child: Text(
-                          'Clients',
+                          FFLocalizations.of(context).getText(
+                            'w5r45419' /* Clients */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .bodyText1
                               .override(
@@ -442,7 +456,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                   child: Text(
-                    'ORGANIZATION',
+                    FFLocalizations.of(context).getText(
+                      '55h9ooma' /* ORGANIZATION */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText1,
                   ),
                 ),
@@ -474,7 +490,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                           child: Text(
-                            'Billing',
+                            FFLocalizations.of(context).getText(
+                              'vi5wq5d3' /* Billing */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyText1
                                 .override(
@@ -507,7 +525,9 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                         child: Text(
-                          'Settings',
+                          FFLocalizations.of(context).getText(
+                            'eiyi9hsu' /* Settings */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .bodyText1
                               .override(

@@ -63,7 +63,9 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Your Messages',
+                              FFLocalizations.of(context).getText(
+                                'ktdkqgbm' /* Your Messages */,
+                              ),
                               style: FlutterFlowTheme.of(context).title2,
                             ),
                             Padding(
@@ -86,7 +88,9 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
                           child: Text(
-                            'Below are your new messages',
+                            FFLocalizations.of(context).getText(
+                              '2il0e6ew' /* Below are your new messages */,
+                            ),
                             style: FlutterFlowTheme.of(context).bodyText2,
                           ),
                         ),
@@ -154,7 +158,10 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                         .spaceBetween,
                                                 children: [
                                                   Text(
-                                                    'Username here',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'hlk121nf' /* Username here */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .subtitle1,
@@ -176,7 +183,10 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 4, 0, 0),
                                                 child: Text(
-                                                  'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '23b20gjc' /* okay wow, you could definitely... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1,
@@ -195,7 +205,11 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                               .fromSTEB(
                                                                   0, 0, 4, 0),
                                                       child: Text(
-                                                        'Posted',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'xacpnb09' /* Posted */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -214,7 +228,11 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                       ),
                                                     ),
                                                     Text(
-                                                      'A few moments ago',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'modh842x' /* A few moments ago */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -296,7 +314,10 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Username here',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '1j0k11dd' /* Username here */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .subtitle1,
@@ -305,7 +326,10 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 4, 0, 0),
                                                 child: Text(
-                                                  'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'c3e4q9x4' /* okay wow, you could definitely... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1,
@@ -324,7 +348,11 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                               .fromSTEB(
                                                                   0, 0, 4, 0),
                                                       child: Text(
-                                                        'Posted',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'l62ds5ok' /* Posted */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -343,7 +371,11 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                       ),
                                                     ),
                                                     Text(
-                                                      'A few moments ago',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'pqs5d09o' /* A few moments ago */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -425,7 +457,10 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Username here',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'qidychpf' /* Username here */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .subtitle1,
@@ -434,7 +469,10 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 4, 0, 0),
                                                 child: Text(
-                                                  'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '1ijny0po' /* okay wow, you could definitely... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1,
@@ -453,7 +491,11 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                               .fromSTEB(
                                                                   0, 0, 4, 0),
                                                       child: Text(
-                                                        'Posted',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'c5x0vktf' /* Posted */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -472,7 +514,11 @@ class _MessageBottomSheetWidgetState extends State<MessageBottomSheetWidget> {
                                                       ),
                                                     ),
                                                     Text(
-                                                      'A few moments ago',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '686d70vz' /* A few moments ago */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)

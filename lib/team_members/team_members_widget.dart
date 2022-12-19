@@ -90,7 +90,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              '团队成员',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'p4rq490b' /* 团队成员 */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .title1,
@@ -99,7 +102,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 4, 0, 0),
                                               child: Text(
-                                                '管理您的团队成员.',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'rztx28ul' /* 管理您的团队成员. */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2,
@@ -213,7 +219,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                 ),
                                                 child: Badge(
                                                   badgeContent: Text(
-                                                    '1',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '8ujiwi43' /* 1 */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText1
@@ -365,7 +374,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                 Expanded(
                                                   flex: 2,
                                                   child: Text(
-                                                    '成员姓名',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'z8mfbfn6' /* 成员姓名 */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -379,7 +391,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                   Expanded(
                                                     flex: 2,
                                                     child: Text(
-                                                      'Email',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '331dnrwl' /* Email */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -392,7 +408,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                 ))
                                                   Expanded(
                                                     child: Text(
-                                                      'Last Active',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '416wkor8' /* Last Active */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -406,7 +426,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                 ))
                                                   Expanded(
                                                     child: Text(
-                                                      'Date Created',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '1jl7kmi7' /* Date Created */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -415,7 +439,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                   ),
                                                 Expanded(
                                                   child: Text(
-                                                    '状态',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'mxkdnaka' /* 状态 */,
+                                                    ),
                                                     textAlign: TextAlign.end,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -502,7 +529,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                           .start,
                                                                   children: [
                                                                     AutoSizeText(
-                                                                      'Custom Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'rpv8c4fn' /* Custom Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .subtitle1,
@@ -523,7 +554,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                         child:
                                                                             Text(
-                                                                          'user@domainname.com',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            '2vwdezwn' /* user@domainname.com */,
+                                                                          ),
                                                                           style:
                                                                               FlutterFlowTheme.of(context).bodyText2,
                                                                         ),
@@ -541,7 +575,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               flex: 2,
                                                               child: Text(
-                                                                'user@domainname.com',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  '48gda6wk' /* user@domainname.com */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -554,8 +592,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'MEd',
-                                                                    getCurrentTimestamp),
+                                                                  'MEd',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -569,8 +611,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'relative',
-                                                                    getCurrentTimestamp),
+                                                                  'relative',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -586,7 +632,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                       .end,
                                                               children: [
                                                                 Text(
-                                                                  'Active',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'svzx0i57' /* Active */,
+                                                                  ),
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyText1
@@ -617,8 +667,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                     child: Text(
                                                                       dateTimeFormat(
-                                                                          'relative',
-                                                                          getCurrentTimestamp),
+                                                                        'relative',
+                                                                        getCurrentTimestamp,
+                                                                        locale:
+                                                                            FFLocalizations.of(context).languageCode,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText2
@@ -708,7 +761,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                           .start,
                                                                   children: [
                                                                     AutoSizeText(
-                                                                      'Custom Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        '899v004e' /* Custom Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .subtitle1,
@@ -729,7 +786,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                         child:
                                                                             Text(
-                                                                          'user@domainname.com',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'e7vbdfis' /* user@domainname.com */,
+                                                                          ),
                                                                           style:
                                                                               FlutterFlowTheme.of(context).bodyText2,
                                                                         ),
@@ -747,7 +807,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               flex: 2,
                                                               child: Text(
-                                                                'user@domainname.com',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'c6seagt0' /* user@domainname.com */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -760,8 +824,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'MEd',
-                                                                    getCurrentTimestamp),
+                                                                  'MEd',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -775,8 +843,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'relative',
-                                                                    getCurrentTimestamp),
+                                                                  'relative',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -792,7 +864,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                       .end,
                                                               children: [
                                                                 Text(
-                                                                  'Active',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'ssljt50j' /* Active */,
+                                                                  ),
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyText1
@@ -823,8 +899,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                     child: Text(
                                                                       dateTimeFormat(
-                                                                          'relative',
-                                                                          getCurrentTimestamp),
+                                                                        'relative',
+                                                                        getCurrentTimestamp,
+                                                                        locale:
+                                                                            FFLocalizations.of(context).languageCode,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText2
@@ -914,7 +993,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                           .start,
                                                                   children: [
                                                                     AutoSizeText(
-                                                                      'Custom Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'jth741bx' /* Custom Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .subtitle1,
@@ -935,7 +1018,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                         child:
                                                                             Text(
-                                                                          'user@domainname.com',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            '8y7yljvw' /* user@domainname.com */,
+                                                                          ),
                                                                           style:
                                                                               FlutterFlowTheme.of(context).bodyText2,
                                                                         ),
@@ -953,7 +1039,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               flex: 2,
                                                               child: Text(
-                                                                'user@domainname.com',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  '9bhrw6tn' /* user@domainname.com */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -966,8 +1056,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'MEd',
-                                                                    getCurrentTimestamp),
+                                                                  'MEd',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -981,8 +1075,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'relative',
-                                                                    getCurrentTimestamp),
+                                                                  'relative',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -998,7 +1096,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                       .end,
                                                               children: [
                                                                 Text(
-                                                                  'Active',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'cgyt2sru' /* Active */,
+                                                                  ),
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyText1
@@ -1029,8 +1131,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                     child: Text(
                                                                       dateTimeFormat(
-                                                                          'relative',
-                                                                          getCurrentTimestamp),
+                                                                        'relative',
+                                                                        getCurrentTimestamp,
+                                                                        locale:
+                                                                            FFLocalizations.of(context).languageCode,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText2
@@ -1120,7 +1225,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                           .start,
                                                                   children: [
                                                                     AutoSizeText(
-                                                                      'Custom Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'k9u458xy' /* Custom Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .subtitle1,
@@ -1141,7 +1250,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                         child:
                                                                             Text(
-                                                                          'user@domainname.com',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            '405q5jfr' /* user@domainname.com */,
+                                                                          ),
                                                                           style:
                                                                               FlutterFlowTheme.of(context).bodyText2,
                                                                         ),
@@ -1159,7 +1271,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               flex: 2,
                                                               child: Text(
-                                                                'user@domainname.com',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'y2oct28i' /* user@domainname.com */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -1172,8 +1288,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'MEd',
-                                                                    getCurrentTimestamp),
+                                                                  'MEd',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -1187,8 +1307,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'relative',
-                                                                    getCurrentTimestamp),
+                                                                  'relative',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -1204,7 +1328,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                       .end,
                                                               children: [
                                                                 Text(
-                                                                  'Active',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'gkwpxlxl' /* Active */,
+                                                                  ),
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyText1
@@ -1235,8 +1363,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                     child: Text(
                                                                       dateTimeFormat(
-                                                                          'relative',
-                                                                          getCurrentTimestamp),
+                                                                        'relative',
+                                                                        getCurrentTimestamp,
+                                                                        locale:
+                                                                            FFLocalizations.of(context).languageCode,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText2
@@ -1326,7 +1457,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                           .start,
                                                                   children: [
                                                                     AutoSizeText(
-                                                                      'Custom Name',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'r2hntndi' /* Custom Name */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .subtitle1,
@@ -1347,7 +1482,10 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                         child:
                                                                             Text(
-                                                                          'user@domainname.com',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            '8zkeyoic' /* user@domainname.com */,
+                                                                          ),
                                                                           style:
                                                                               FlutterFlowTheme.of(context).bodyText2,
                                                                         ),
@@ -1365,7 +1503,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               flex: 2,
                                                               child: Text(
-                                                                'user@domainname.com',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'we6orzp3' /* user@domainname.com */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -1378,8 +1520,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'MEd',
-                                                                    getCurrentTimestamp),
+                                                                  'MEd',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -1393,8 +1539,12 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                             Expanded(
                                                               child: Text(
                                                                 dateTimeFormat(
-                                                                    'relative',
-                                                                    getCurrentTimestamp),
+                                                                  'relative',
+                                                                  getCurrentTimestamp,
+                                                                  locale: FFLocalizations.of(
+                                                                          context)
+                                                                      .languageCode,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1,
@@ -1410,7 +1560,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                       .end,
                                                               children: [
                                                                 Text(
-                                                                  'Active',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'ixon91s3' /* Active */,
+                                                                  ),
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyText1
@@ -1441,8 +1595,11 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                                                                             0),
                                                                     child: Text(
                                                                       dateTimeFormat(
-                                                                          'relative',
-                                                                          getCurrentTimestamp),
+                                                                        'relative',
+                                                                        getCurrentTimestamp,
+                                                                        locale:
+                                                                            FFLocalizations.of(context).languageCode,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText2

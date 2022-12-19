@@ -65,7 +65,9 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Your Projects',
+                                      FFLocalizations.of(context).getText(
+                                        'cbhgiwm8' /* Your Projects */,
+                                      ),
                                       style:
                                           FlutterFlowTheme.of(context).title1,
                                     ),
@@ -73,7 +75,9 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 4, 0, 0),
                                       child: Text(
-                                        'Your projects are below, check it out.',
+                                        FFLocalizations.of(context).getText(
+                                          '0sls6kw7' /* Your projects are below, check... */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2,
                                       ),
@@ -154,7 +158,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                           ),
                                           child: Badge(
                                             badgeContent: Text(
-                                              '1',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '53zys4hr' /* 1 */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -291,7 +298,9 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Credit Card',
+                                          FFLocalizations.of(context).getText(
+                                            'tvwlt2ke' /* Credit Card */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .title2,
                                         ),
@@ -327,13 +336,25 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   indicatorWeight: 1,
                                                   tabs: [
                                                     Tab(
-                                                      text: 'Budget',
+                                                      text: FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '2w8mpf1g' /* Budget */,
+                                                      ),
                                                     ),
                                                     Tab(
-                                                      text: 'Spending',
+                                                      text: FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'o0491zf3' /* Spending */,
+                                                      ),
                                                     ),
                                                     Tab(
-                                                      text: 'Balance',
+                                                      text: FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'v68aozff' /* Balance */,
+                                                      ),
                                                     ),
                                                   ],
                                                 ),
@@ -440,7 +461,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                                               .max,
                                                                       children: [
                                                                         Text(
-                                                                          'Balance',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            '1m15wkzq' /* Balance */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -467,7 +491,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                                               .max,
                                                                       children: [
                                                                         Text(
-                                                                          '\$7,630',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'c871wtzn' /* $7,630 */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .title1
                                                                               .override(
@@ -497,7 +524,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                                               .spaceBetween,
                                                                       children: [
                                                                         Text(
-                                                                          '**** 0149',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'dasfz3nr' /* **** 0149 */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -509,7 +539,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                                               ),
                                                                         ),
                                                                         Text(
-                                                                          '05/25',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'zdy0xzhd' /* 05/25 */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -530,7 +563,11 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                         ],
                                                       ),
                                                       Text(
-                                                        'Tab View 2',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'l7olqxp3' /* Tab View 2 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -576,7 +613,9 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Avg. Spend',
+                                          FFLocalizations.of(context).getText(
+                                            'thih5h3p' /* Avg. Spend */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .title2,
                                         ),
@@ -585,7 +624,9 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            '\$25,205',
+                                            FFLocalizations.of(context).getText(
+                                              't4di97cf' /* $25,205 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .title1
                                                 .override(
@@ -676,14 +717,22 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                 ),
                                                 axisBounds: AxisBounds(),
                                                 xAxisLabelInfo: AxisLabelInfo(
-                                                  title: 'Timeline',
+                                                  title: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'pmfnbk4l' /* Timeline */,
+                                                  ),
                                                   titleTextStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .bodyText2,
                                                 ),
                                                 yAxisLabelInfo: AxisLabelInfo(
-                                                  title: 'Spend',
+                                                  title: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'zzw80byt' /* Spend */,
+                                                  ),
                                                   titleTextStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -713,7 +762,9 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Recent Transactions',
+                                          FFLocalizations.of(context).getText(
+                                            '51d9zxo7' /* Recent Transactions */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .title2,
                                         ),
@@ -722,7 +773,9 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'A list of all your transactions this week.',
+                                            FFLocalizations.of(context).getText(
+                                              'qqt7nhgo' /* A list of all your transaction... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2,
                                           ),
@@ -861,7 +914,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Insurance',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'zget5n63' /* Insurance */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1,
@@ -870,7 +926,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 4, 0, 0),
                                                   child: Text(
-                                                    'Property Coverage',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '1p9sfg9v' /* Property Coverage */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -891,7 +950,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Insurance',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'aznzw4f3' /* Insurance */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1,
@@ -900,7 +962,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 4, 0, 0),
                                                   child: Text(
-                                                    'Property Coverage',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '4ez6kftz' /* Property Coverage */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -924,7 +989,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Insurance',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'uht4kun8' /* Insurance */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .subtitle1,
@@ -935,7 +1003,11 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                             .fromSTEB(
                                                                 0, 4, 0, 0),
                                                     child: Text(
-                                                      'Property Coverage',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'z30jzbsw' /* Property Coverage */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -957,7 +1029,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Insurance',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '7ztbb7zd' /* Insurance */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1,
@@ -966,7 +1041,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 4, 0, 0),
                                                   child: Text(
-                                                    'Property Coverage',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '5k3maxgv' /* Property Coverage */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -1012,7 +1090,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Insurance',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'hilwrd84' /* Insurance */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1,
@@ -1021,7 +1102,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 4, 0, 0),
                                                   child: Text(
-                                                    'Property Coverage',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '8wa8dc97' /* Property Coverage */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -1042,7 +1126,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Insurance',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'hlkotqx2' /* Insurance */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1,
@@ -1051,7 +1138,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 4, 0, 0),
                                                   child: Text(
-                                                    'Property Coverage',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '5wkzee24' /* Property Coverage */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -1075,7 +1165,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Insurance',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '31lfef1e' /* Insurance */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .subtitle1,
@@ -1086,7 +1179,11 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                             .fromSTEB(
                                                                 0, 4, 0, 0),
                                                     child: Text(
-                                                      'Property Coverage',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'qcmezt7g' /* Property Coverage */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1108,7 +1205,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Insurance',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'o2zwpyto' /* Insurance */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .subtitle1,
@@ -1117,7 +1217,10 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 4, 0, 0),
                                                   child: Text(
-                                                    'Property Coverage',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '4f0sx62l' /* Property Coverage */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,

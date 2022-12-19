@@ -112,7 +112,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
                   child: Text(
-                    'Platinum',
+                    FFLocalizations.of(context).getText(
+                      '21i2vb5f' /* Platinum */,
+                    ),
                     style: FlutterFlowTheme.of(context).title2,
                   ),
                 ),
@@ -121,7 +123,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0, 24, 0, 0),
               child: Text(
-                'MENU',
+                FFLocalizations.of(context).getText(
+                  'vc28a6wh' /* MENU */,
+                ),
                 style: FlutterFlowTheme.of(context).bodyText1,
               ),
             ),
@@ -153,7 +157,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                       child: Text(
-                        'Home',
+                        FFLocalizations.of(context).getText(
+                          'sgj7ppzr' /* Home */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily:
                                   FlutterFlowTheme.of(context).bodyText1Family,
@@ -195,7 +201,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                       child: Text(
-                        'Projects',
+                        FFLocalizations.of(context).getText(
+                          '6h03nko5' /* Projects */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily:
                                   FlutterFlowTheme.of(context).bodyText1Family,
@@ -237,7 +245,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                       child: Text(
-                        'Team Members',
+                        FFLocalizations.of(context).getText(
+                          '5s0r4xwl' /* Team Members */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily:
                                   FlutterFlowTheme.of(context).bodyText1Family,
@@ -267,7 +277,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                     child: Text(
-                      'Clients',
+                      FFLocalizations.of(context).getText(
+                        's86yhnhd' /* Clients */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily:
                                 FlutterFlowTheme.of(context).bodyText1Family,
@@ -283,7 +295,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
               child: Text(
-                'ORGANIZATION',
+                FFLocalizations.of(context).getText(
+                  'sw33tlrx' /* ORGANIZATION */,
+                ),
                 style: FlutterFlowTheme.of(context).bodyText1,
               ),
             ),
@@ -315,7 +329,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                       child: Text(
-                        'Billing',
+                        FFLocalizations.of(context).getText(
+                          '94z4oqwd' /* Billing */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily:
                                   FlutterFlowTheme.of(context).bodyText1Family,
@@ -345,7 +361,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                     child: Text(
-                      'Settings',
+                      FFLocalizations.of(context).getText(
+                        'rn0xcho7' /* Settings */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily:
                                 FlutterFlowTheme.of(context).bodyText1Family,
@@ -387,7 +405,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Help Center',
+                              FFLocalizations.of(context).getText(
+                                '76f2nva8' /* Help Center */,
+                              ),
                               style:
                                   FlutterFlowTheme.of(context).title3.override(
                                         fontFamily: FlutterFlowTheme.of(context)
@@ -404,7 +424,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                               child: Text(
-                                'Having trouble with Platinum? Contact us below.',
+                                FFLocalizations.of(context).getText(
+                                  'jn3sy1cs' /* Having trouble with Platinum? ... */,
+                                ),
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText2
@@ -427,7 +449,9 @@ class _MainWebNavWidgetState extends State<MainWebNavWidget>
                                 onPressed: () {
                                   print('Button pressed ...');
                                 },
-                                text: 'Go To Help Center',
+                                text: FFLocalizations.of(context).getText(
+                                  'pvwevd9h' /* Go To Help Center */,
+                                ),
                                 options: FFButtonOptions(
                                   width: double.infinity,
                                   height: 48,

@@ -45,14 +45,18 @@ class _BillingWidgetState extends State<BillingWidget> {
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                     child: Text(
-                      'Notifications',
+                      FFLocalizations.of(context).getText(
+                        'qlq4nta9' /* Notifications */,
+                      ),
                       style: FlutterFlowTheme.of(context).title2,
                     ),
                   ),
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(16, 4, 0, 0),
                     child: Text(
-                      'Below are you new notifications.',
+                      FFLocalizations.of(context).getText(
+                        'ebqnuwo7' /* Below are you new notification... */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText2,
                     ),
                   ),
@@ -124,7 +128,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                'Username here',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'fgf7vn62' /* Username here */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .subtitle1,
@@ -137,7 +144,9 @@ class _BillingWidgetState extends State<BillingWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              'iyed1q94' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -153,7 +162,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    't7qlt29p' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -173,7 +185,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'z3x8byp2' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -250,7 +265,9 @@ class _BillingWidgetState extends State<BillingWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Username here',
+                                          FFLocalizations.of(context).getText(
+                                            'pkd5ivyu' /* Username here */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
                                         ),
@@ -259,7 +276,9 @@ class _BillingWidgetState extends State<BillingWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              'v9ubiyt9' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -275,7 +294,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '5olkyox2' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -295,7 +317,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'yb11222n' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -372,7 +397,9 @@ class _BillingWidgetState extends State<BillingWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Username here',
+                                          FFLocalizations.of(context).getText(
+                                            '0ocwsowk' /* Username here */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
                                         ),
@@ -381,7 +408,9 @@ class _BillingWidgetState extends State<BillingWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            'okay wow, you could definitely catch meat the restaurant in Ibiza',
+                                            FFLocalizations.of(context).getText(
+                                              'uia3kjnd' /* okay wow, you could definitely... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -397,7 +426,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 4, 0),
                                                 child: Text(
-                                                  'Posted',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'q9r5egv2' /* Posted */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -417,7 +449,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 ),
                                               ),
                                               Text(
-                                                'A few moments ago',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '00xiz67i' /* A few moments ago */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2
@@ -520,7 +555,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Billing',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'vdqn0f0z' /* Billing */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .title1,
@@ -529,7 +567,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 4, 0, 0),
                                               child: Text(
-                                                'Please check the latest payments and your balance below.',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '8e9a31jj' /* Please check the latest paymen... */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText2,
@@ -643,7 +684,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 ),
                                                 child: Badge(
                                                   badgeContent: Text(
-                                                    '1',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '91lcng77' /* 1 */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText1
@@ -804,7 +848,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Money In',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'ehr6pm5q' /* Money In */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .subtitle1,
@@ -815,7 +862,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .fromSTEB(
                                                                 0, 4, 0, 0),
                                                     child: Text(
-                                                      'The amount of money received this month.',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '1tqjh5mc' /* The amount of money received t... */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -828,7 +879,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .fromSTEB(
                                                                 0, 16, 0, 0),
                                                     child: Text(
-                                                      '\$3,502',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'ci4s2s8h' /* $3,502 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -860,7 +915,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Money Out',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'dcp802no' /* Money Out */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .subtitle1,
@@ -871,7 +929,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .fromSTEB(
                                                                 0, 4, 0, 0),
                                                     child: Text(
-                                                      'The amount you paid this month.',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'nnkd0mf7' /* The amount you paid this month... */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -884,7 +946,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .fromSTEB(
                                                                 0, 16, 0, 0),
                                                     child: Text(
-                                                      '-\$2,201',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'f2j0plyj' /* -$2,201 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -916,7 +982,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Current Balance',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'dr3ck58j' /* Current Balance */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .subtitle1,
@@ -927,7 +996,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .fromSTEB(
                                                                 0, 4, 0, 0),
                                                     child: Text(
-                                                      'The amount of money received this month.',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'k7hz9qn0' /* The amount of money received t... */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -940,7 +1013,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .fromSTEB(
                                                                 0, 16, 0, 0),
                                                     child: Text(
-                                                      '\$42,592',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'hvenv1kh' /* $42,592 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -977,7 +1054,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 4, 0, 0),
                                                 child: Text(
-                                                  'Payment Name',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'bu72h4fn' /* Payment Name */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText2,
@@ -1006,7 +1086,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 4, 0, 0),
                                                   child: Text(
-                                                    'Paid by',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      's8b75ywh' /* Paid by */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -1035,7 +1118,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 4, 0, 0),
                                                   child: Text(
-                                                    'Paid on',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '7wvqrrgo' /* Paid on */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText2,
@@ -1060,7 +1146,10 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 4, 0, 0),
                                                 child: Text(
-                                                  'Amount',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '9798g27r' /* Amount */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText2,
@@ -1111,7 +1200,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Subscription Billing',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'wjdmz2p6' /* Subscription Billing */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1138,7 +1231,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Andrew D.',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '4g9qursh' /* Andrew D. */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1165,7 +1262,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Aug. 8, 2022',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'xckko3o1' /* Aug. 8, 2022 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1187,7 +1288,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      '\$199.99',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '9q4m59kd' /* $199.99 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1231,7 +1336,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Subscription Billing',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'ttlzs8z5' /* Subscription Billing */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1258,7 +1367,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Andrew D.',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '64k7g8oj' /* Andrew D. */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1285,7 +1398,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Jul. 8, 2022',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '9w547m1a' /* Jul. 8, 2022 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1307,7 +1424,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      '\$199.99',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'mqb3xyn8' /* $199.99 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1351,7 +1472,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Subscription Billing',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'zt7gs95g' /* Subscription Billing */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1378,7 +1503,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Andrew D.',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'd6ky0gd2' /* Andrew D. */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1405,7 +1534,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Jun. 8, 2022',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '9jarjv14' /* Jun. 8, 2022 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1427,7 +1560,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      '\$199.99',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'w5kza49v' /* $199.99 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1471,7 +1608,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Subscription Billing',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'plbqsr0i' /* Subscription Billing */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1498,7 +1639,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Andrew D.',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'uj47c0ro' /* Andrew D. */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1525,7 +1670,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'May 8, 2022',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'wjv3xcmr' /* May 8, 2022 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1547,7 +1696,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      '\$199.99',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '8emjk1w6' /* $199.99 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1591,7 +1744,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Subscription Billing',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '0yz5mznc' /* Subscription Billing */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1618,7 +1775,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Andrew D.',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '1459tace' /* Andrew D. */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1645,7 +1806,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Apr. 8, 2022',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'x50snwgn' /* Apr. 8, 2022 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1667,7 +1832,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      '\$199.99',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'fr6yujwv' /* $199.99 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1711,7 +1880,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Subscription Billing',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'obspv8hw' /* Subscription Billing */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1738,7 +1911,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Andrew D.',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'vxznvh5r' /* Andrew D. */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1765,7 +1942,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Mar. 8, 2022',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'vxa1hj3k' /* Mar. 8, 2022 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1787,7 +1968,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      '\$199.99',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'j3ela4da' /* $199.99 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1831,7 +2016,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Subscription Billing',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'h4523wei' /* Subscription Billing */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1858,7 +2047,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Andrew D.',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'g2rfl4pv' /* Andrew D. */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1885,7 +2078,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Feb. 8, 2022',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '3knns36e' /* Feb. 8, 2022 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1907,7 +2104,11 @@ class _BillingWidgetState extends State<BillingWidget> {
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      '\$199.99',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'sh65lqo8' /* $199.99 */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
