@@ -932,7 +932,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                   .title3
                                                                   .override(
                                                                     fontFamily:
-                                                                        'Poppins',
+                                                                        'Noto Sans',
                                                                     color: Colors
                                                                         .white,
                                                                     fontSize:
@@ -979,18 +979,16 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       '500.20K',
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .title1
+                                                                          .title3
                                                                           .override(
                                                                             fontFamily:
-                                                                                'Poppins',
+                                                                                FlutterFlowTheme.of(context).title3Family,
                                                                             color:
-                                                                                Colors.white,
+                                                                                FlutterFlowTheme.of(context).primaryBtnText,
                                                                             fontSize:
                                                                                 35,
-                                                                            fontWeight:
-                                                                                FontWeight.w600,
                                                                             useGoogleFonts:
-                                                                                GoogleFonts.asMap().containsKey(FlutterFlowTheme.of(context).title1Family),
+                                                                                GoogleFonts.asMap().containsKey(FlutterFlowTheme.of(context).title3Family),
                                                                           ),
                                                                     ),
                                                                   ),
@@ -999,34 +997,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             ),
                                                           ],
                                                         ),
-                                                      ),
-                                                      Column(
-                                                        mainAxisSize:
-                                                            MainAxisSize.max,
-                                                        children: [
-                                                          Row(
-                                                            mainAxisSize:
-                                                                MainAxisSize
-                                                                    .max,
-                                                            children: [
-                                                              if (false)
-                                                                Icon(
-                                                                  Icons
-                                                                      .trending_up_sharp,
-                                                                  color: Color(
-                                                                      0xFF4FC280),
-                                                                  size: 24,
-                                                                ),
-                                                              Icon(
-                                                                Icons
-                                                                    .trending_down_sharp,
-                                                                color: Color(
-                                                                    0xFFD6455D),
-                                                                size: 24,
-                                                              ),
-                                                            ],
-                                                          ),
-                                                        ],
                                                       ),
                                                     ],
                                                   ),
@@ -1076,24 +1046,73 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
                                                 children: [
-                                                  Text(
-                                                    '平均稼动率',
-                                                    style: FlutterFlowTheme.of(
-                                                            context)
-                                                        .title3
-                                                        .override(
-                                                          fontFamily: 'Poppins',
-                                                          color: Colors.white,
-                                                          fontSize: 20,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                          useGoogleFonts: GoogleFonts
-                                                                  .asMap()
-                                                              .containsKey(
-                                                                  FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .title3Family),
-                                                        ),
+                                                  Row(
+                                                    mainAxisSize:
+                                                        MainAxisSize.max,
+                                                    mainAxisAlignment:
+                                                        MainAxisAlignment
+                                                            .spaceBetween,
+                                                    children: [
+                                                      Text(
+                                                        '平均稼动率',
+                                                        style:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .title3
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Noto Sans',
+                                                                  color: Colors
+                                                                      .white,
+                                                                  fontSize: 20,
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .w500,
+                                                                  useGoogleFonts: GoogleFonts
+                                                                          .asMap()
+                                                                      .containsKey(
+                                                                          FlutterFlowTheme.of(context)
+                                                                              .title3Family),
+                                                                ),
+                                                      ),
+                                                      Column(
+                                                        mainAxisSize:
+                                                            MainAxisSize.max,
+                                                        children: [
+                                                          Row(
+                                                            mainAxisSize:
+                                                                MainAxisSize
+                                                                    .max,
+                                                            children: [
+                                                              if (getJsonField(
+                                                                FFAppState()
+                                                                    .avgEfficency,
+                                                                r'''$.trendUp''',
+                                                              ))
+                                                                Icon(
+                                                                  Icons
+                                                                      .trending_up_sharp,
+                                                                  color: Color(
+                                                                      0xFF4FC280),
+                                                                  size: 24,
+                                                                ),
+                                                              if (!getJsonField(
+                                                                FFAppState()
+                                                                    .avgEfficency,
+                                                                r'''$.trendUp''',
+                                                              ))
+                                                                Icon(
+                                                                  Icons
+                                                                      .trending_down_sharp,
+                                                                  color: Color(
+                                                                      0xFFD6455D),
+                                                                  size: 24,
+                                                                ),
+                                                            ],
+                                                          ),
+                                                        ],
+                                                      ),
+                                                    ],
                                                   ),
                                                   Padding(
                                                     padding:
@@ -1126,7 +1145,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 .title1
                                                                 .override(
                                                                   fontFamily:
-                                                                      'Poppins',
+                                                                      'Noto Sans',
                                                                   color: Colors
                                                                       .white,
                                                                   fontSize: 35,
@@ -1146,29 +1165,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                   ),
                                                 ],
                                               ),
-                                            ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              children: [
-                                                Row(
-                                                  mainAxisSize:
-                                                      MainAxisSize.max,
-                                                  children: [
-                                                    if (false)
-                                                      Icon(
-                                                        Icons.trending_up_sharp,
-                                                        color:
-                                                            Color(0xFF4FC280),
-                                                        size: 24,
-                                                      ),
-                                                    Icon(
-                                                      Icons.trending_down_sharp,
-                                                      color: Color(0xFFD6455D),
-                                                      size: 24,
-                                                    ),
-                                                  ],
-                                                ),
-                                              ],
                                             ),
                                           ],
                                         ),

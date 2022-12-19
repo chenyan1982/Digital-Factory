@@ -86,34 +86,31 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                 ),
               ),
               Expanded(
-                child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                  child: InkWell(
-                    onTap: () async {
-                      await Navigator.push(
-                        context,
-                        PageTransition(
-                          type: PageTransitionType.fade,
-                          duration: Duration(milliseconds: 0),
-                          reverseDuration: Duration(milliseconds: 0),
-                          child: ProjectsWidget(),
+                child: InkWell(
+                  onTap: () async {
+                    await Navigator.push(
+                      context,
+                      PageTransition(
+                        type: PageTransitionType.fade,
+                        duration: Duration(milliseconds: 0),
+                        reverseDuration: Duration(milliseconds: 0),
+                        child: ProjectsWidget(),
+                      ),
+                    );
+                  },
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      widget.navTwoIcon!,
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
+                        child: Text(
+                          '设备',
+                          style: FlutterFlowTheme.of(context).bodyText2,
                         ),
-                      );
-                    },
-                    child: Column(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        widget.navTwoIcon!,
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
-                          child: Text(
-                            '设备',
-                            style: FlutterFlowTheme.of(context).bodyText2,
-                          ),
-                        ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
                 ),
               ),

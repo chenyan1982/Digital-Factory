@@ -16,44 +16,16 @@ class FFAppState extends ChangeNotifier {
 
   Future initializePersistedState() async {
     prefs = await SharedPreferences.getInstance();
-    _overview = prefs.getStringList('ff_overview')?.map((x) {
-          try {
-            return jsonDecode(x);
-          } catch (e) {
-            print("Can't decode persisted json. Error: $e.");
-            return {};
-          }
-        }).toList() ??
-        _overview;
   }
 
   late SharedPreferences prefs;
 
-  List<dynamic> _overview = [
-    jsonDecode('{\"title\":\"总产量\",\"subtitle\":\"\",\"digital\":\"20.63千万\"}'),
-    jsonDecode('{\"title\":\"平均稼动率\",\"subtitle\":\"\",\"digital\":\"98.72%\"}')
-  ];
-  List<dynamic> get overview => _overview;
-  set overview(List<dynamic> _value) {
+  dynamic _avgEfficency = jsonDecode('{\"value\":0,\"trendUp\":false}');
+  dynamic get avgEfficency => _avgEfficency;
+  set avgEfficency(dynamic _value) {
     notifyListeners();
 
-    _overview = _value;
-    prefs.setStringList(
-        'ff_overview', _value.map((x) => jsonEncode(x)).toList());
-  }
-
-  void addToOverview(dynamic _value) {
-    notifyListeners();
-    _overview.add(_value);
-    prefs.setStringList(
-        'ff_overview', _overview.map((x) => jsonEncode(x)).toList());
-  }
-
-  void removeFromOverview(dynamic _value) {
-    notifyListeners();
-    _overview.remove(_value);
-    prefs.setStringList(
-        'ff_overview', _overview.map((x) => jsonEncode(x)).toList());
+    _avgEfficency = _value;
   }
 }
 
