@@ -976,20 +976,16 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                             0,
                                                                             0),
                                                                     child: Text(
-                                                                      '500.20K',
-                                                                      style: FlutterFlowTheme.of(
-                                                                              context)
-                                                                          .title3
-                                                                          .override(
-                                                                            fontFamily:
-                                                                                FlutterFlowTheme.of(context).title3Family,
-                                                                            color:
-                                                                                FlutterFlowTheme.of(context).primaryBtnText,
-                                                                            fontSize:
-                                                                                35,
-                                                                            useGoogleFonts:
-                                                                                GoogleFonts.asMap().containsKey(FlutterFlowTheme.of(context).title3Family),
-                                                                          ),
+                                                                      '500.20千万',
+                                                                      style:
+                                                                          TextStyle(
+                                                                        color: FlutterFlowTheme.of(context)
+                                                                            .primaryBtnText,
+                                                                        fontWeight:
+                                                                            FontWeight.w600,
+                                                                        fontSize:
+                                                                            35,
+                                                                      ),
                                                                     ),
                                                                   ),
                                                                 ],
@@ -1140,24 +1136,16 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                   0, 0),
                                                           child: Text(
                                                             '95.76%',
-                                                            style: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .title1
-                                                                .override(
-                                                                  fontFamily:
-                                                                      'Noto Sans',
-                                                                  color: Colors
-                                                                      .white,
-                                                                  fontSize: 35,
-                                                                  fontWeight:
-                                                                      FontWeight
-                                                                          .w600,
-                                                                  useGoogleFonts: GoogleFonts
-                                                                          .asMap()
-                                                                      .containsKey(
-                                                                          FlutterFlowTheme.of(context)
-                                                                              .title1Family),
-                                                                ),
+                                                            style: GoogleFonts
+                                                                .getFont(
+                                                              'Noto Sans',
+                                                              color:
+                                                                  Colors.white,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w600,
+                                                              fontSize: 35,
+                                                            ),
                                                           ),
                                                         ),
                                                       ],
@@ -1186,7 +1174,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Avg. Spend',
+                                          '今日总产量',
                                           style: FlutterFlowTheme.of(context)
                                               .title2,
                                         ),
@@ -1195,7 +1183,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 4, 0, 0),
                                           child: Text(
-                                            '\$25,205',
+                                            '25万',
                                             style: FlutterFlowTheme.of(context)
                                                 .title1
                                                 .override(
