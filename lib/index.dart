@@ -7,3 +7,4 @@ export 'responsive_test/responsive_test_widget.dart' show ResponsiveTestWidget;
 export 'team_members_clients/team_members_clients_widget.dart'
     show TeamMembersClientsWidget;
 export 'projects_alt/projects_alt_widget.dart' show ProjectsAltWidget;
+export 'language/language_widget.dart' show LanguageWidget;

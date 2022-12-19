@@ -50,7 +50,12 @@
 	<true/>
 
 
-
+	<key>NSContactsUsageDescription</key>
+      <string>Need allow access your contacts</string>
+	<key>NSCameraUsageDescription</key>
+      <string>Need allow access your camera</string>
+	<key>PermissionGroupNotification</key>
+      <string>Need allow receive notifications</string>
 
 
 	<key>UILaunchStoryboardName</key>

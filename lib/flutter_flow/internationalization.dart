@@ -2207,6 +2207,37 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '家',
     },
   },
+  // Language
+  {
+    'cepltokh': {
+      'en': 'Hello World',
+      'de': 'Hallo Welt',
+      'fr': 'Bonjour le monde',
+      'ja': 'こんにちは世界',
+      'zh_Hans': '你好世界',
+    },
+    '1ujk81ko': {
+      'en': 'English',
+      'de': 'Englisch',
+      'fr': 'Anglais',
+      'ja': '英語',
+      'zh_Hans': '英语',
+    },
+    'qhhqh5l4': {
+      'en': 'chinese',
+      'de': 'Chinesisch',
+      'fr': 'chinois',
+      'ja': '中文',
+      'zh_Hans': '中文',
+    },
+    'pa61qrgm': {
+      'en': 'Home',
+      'de': '',
+      'fr': '',
+      'ja': '',
+      'zh_Hans': '',
+    },
+  },
   // mainWebNav
   {
     '21i2vb5f': {
@@ -2499,6 +2530,30 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'MENU',
       'ja': 'メニュー',
       'zh_Hans': '菜单',
+    },
+  },
+  // Miscellaneous
+  {
+    'npbs0pmg': {
+      'en': 'Need allow access your contacts',
+      'de': 'Sie müssen den Zugriff auf Ihre Kontakte zulassen',
+      'fr': 'Besoin d\'autoriser l\'accès à vos contacts',
+      'ja': '連絡先へのアクセスを許可する必要があります',
+      'zh_Hans': '需要允许访问您的联系人',
+    },
+    'efnuksla': {
+      'en': 'Need allow access your camera',
+      'de': 'Sie müssen den Zugriff auf Ihre Kamera zulassen',
+      'fr': 'Besoin d\'autoriser l\'accès à votre caméra',
+      'ja': 'カメラへのアクセスを許可する必要があります',
+      'zh_Hans': '需要允许访问您的相机',
+    },
+    'mzj4qkwt': {
+      'en': 'Need allow receive notifications',
+      'de': 'Sie müssen Benachrichtigungen zulassen',
+      'fr': 'Besoin d\'autoriser la réception de notifications',
+      'ja': '通知の受信を許可する必要があります',
+      'zh_Hans': '需要允许接收通知',
     },
   },
 ].reduce((a, b) => a..addAll(b));
