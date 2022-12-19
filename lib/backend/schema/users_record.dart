@@ -37,7 +37,7 @@ abstract class UsersRecord implements Built<UsersRecord, UsersRecordBuilder> {
     ..phoneNumber = '';
 
   static CollectionReference get collection =>
-      FirebaseFirestore.instance.collection('users');
+      FirebaseFirestore.instance.collection('Users');
 
   static Stream<UsersRecord> getDocument(DocumentReference ref) => ref
       .snapshots()

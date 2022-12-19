@@ -1,4 +1,4 @@
-package com.mycompany.digitalfactory
+package com.mycompany.responsivedashboard
 
 import io.flutter.embedding.android.FlutterActivity
 

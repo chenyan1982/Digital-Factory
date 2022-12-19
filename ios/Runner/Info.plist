@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>digital-factory</string>
+	<string>Digital Factory</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>digital-factory</string>
+	<string>Digital Factory</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 
@@ -28,24 +28,12 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>com.googleusercontent.apps.990894271864-fleji39541nt0lbb35ma8sqgr3r6uiip</string>
+                <string>com.googleusercontent.apps.223129545827-4vfehl4i4l32jdkrg56nne958irsjcro</string>
                 
             </array>
         </dict>
 
-        <dict>
-        <key>CFBundleTypeRole</key>
-        <string>Editor</string>
-        <key>CFBundleURLName</key>
-        <string>digitalfactory.com</string>
-        <key>CFBundleURLSchemes</key>
-        <array>
-        <string>digitalfactory</string>
-        </array>
-        </dict>
     </array>
-    <key>FlutterDeepLinkingEnabled</key>
-    <true/>
 
 
 	<key>CFBundleVersion</key>

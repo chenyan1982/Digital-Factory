@@ -1,6 +1,6 @@
 {
-    "name": "digital-factory",
-    "short_name": "digital-factory",
+    "name": "Digital Factory",
+    "short_name": "Digital Factory",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
