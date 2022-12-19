@@ -16,6 +16,7 @@ class FFAppState extends ChangeNotifier {
 
   Future initializePersistedState() async {
     prefs = await SharedPreferences.getInstance();
+    _token = prefs.getString('ff_token') ?? _token;
   }
 
   late SharedPreferences prefs;
@@ -26,6 +27,15 @@ class FFAppState extends ChangeNotifier {
     notifyListeners();
 
     _avgEfficency = _value;
+  }
+
+  String _token = '';
+  String get token => _token;
+  set token(String _value) {
+    notifyListeners();
+
+    _token = _value;
+    prefs.setString('ff_token', _value);
   }
 }
 

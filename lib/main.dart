@@ -36,16 +36,6 @@ class _MyAppState extends State<MyApp> {
   Locale? _locale;
   ThemeMode _themeMode = FlutterFlowTheme.themeMode;
 
-  bool displaySplashImage = true;
-
-  @override
-  void initState() {
-    super.initState();
-
-    Future.delayed(
-        Duration(seconds: 1), () => setState(() => displaySplashImage = false));
-  }
-
   void setLocale(String language) {
     setState(() => _locale = createLocale(language));
   }
@@ -70,17 +60,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(brightness: Brightness.light),
       darkTheme: ThemeData(brightness: Brightness.dark),
       themeMode: _themeMode,
-      home: displaySplashImage
-          ? Builder(
-              builder: (context) => Container(
-                color: Colors.transparent,
-                child: Image.asset(
-                  'assets/images/Screen_Shot_2022-07-28_at_2.50.14_PM.png',
-                  fit: BoxFit.cover,
-                ),
-              ),
-            )
-          : HomePageWidget(),
+      home: HomePageWidget(),
     );
   }
 }

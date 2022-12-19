@@ -549,7 +549,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 .fromSTEB(
                                                                     0, 4, 0, 0),
                                                         child: Text(
-                                                          '你好 Andrew! 欢迎回来.',
+                                                          '你好 游客! 欢迎回来.',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText2,
