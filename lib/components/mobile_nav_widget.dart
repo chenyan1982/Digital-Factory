@@ -1,8 +1,5 @@
-import '../devices/devices_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
-import '../home_page/home_page_widget.dart';
-import '../profile/profile_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -24,6 +21,13 @@ class MobileNavWidget extends StatefulWidget {
 }
 
 class _MobileNavWidgetState extends State<MobileNavWidget> {
+  @override
+  void initState() {
+    super.initState();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
+  }
+
   @override
   Widget build(BuildContext context) {
     context.watch<FFAppState>();
@@ -56,14 +60,15 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
               Expanded(
                 child: InkWell(
                   onTap: () async {
-                    await Navigator.push(
-                      context,
-                      PageTransition(
-                        type: PageTransitionType.fade,
-                        duration: Duration(milliseconds: 0),
-                        reverseDuration: Duration(milliseconds: 0),
-                        child: HomePageWidget(),
-                      ),
+                    context.pushNamed(
+                      'HomePage',
+                      extra: <String, dynamic>{
+                        kTransitionInfoKey: TransitionInfo(
+                          hasTransition: true,
+                          transitionType: PageTransitionType.fade,
+                          duration: Duration(milliseconds: 0),
+                        ),
+                      },
                     );
                   },
                   child: Column(
@@ -87,14 +92,15 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
               Expanded(
                 child: InkWell(
                   onTap: () async {
-                    await Navigator.push(
-                      context,
-                      PageTransition(
-                        type: PageTransitionType.fade,
-                        duration: Duration(milliseconds: 0),
-                        reverseDuration: Duration(milliseconds: 0),
-                        child: DevicesWidget(),
-                      ),
+                    context.pushNamed(
+                      'devices',
+                      extra: <String, dynamic>{
+                        kTransitionInfoKey: TransitionInfo(
+                          hasTransition: true,
+                          transitionType: PageTransitionType.fade,
+                          duration: Duration(milliseconds: 0),
+                        ),
+                      },
                     );
                   },
                   child: Column(
@@ -118,14 +124,15 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
               Expanded(
                 child: InkWell(
                   onTap: () async {
-                    await Navigator.push(
-                      context,
-                      PageTransition(
-                        type: PageTransitionType.fade,
-                        duration: Duration(milliseconds: 0),
-                        reverseDuration: Duration(milliseconds: 0),
-                        child: ProfileWidget(),
-                      ),
+                    context.pushNamed(
+                      'profile',
+                      extra: <String, dynamic>{
+                        kTransitionInfoKey: TransitionInfo(
+                          hasTransition: true,
+                          transitionType: PageTransitionType.fade,
+                          duration: Duration(milliseconds: 0),
+                        ),
+                      },
                     );
                   },
                   child: Column(

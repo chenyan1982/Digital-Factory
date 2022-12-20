@@ -60,6 +60,8 @@ class _ProfileWidgetState extends State<ProfileWidget>
           !anim.applyInitialState),
       this,
     );
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -177,7 +179,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                 Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    '4e78d0uq' /* Your Profile */,
+                                                    '1juqbkug' /* Your Profile */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -189,7 +191,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      '9oqrk2qs' /* Below are your settings */,
+                                                      '0l24w0fe' /* Below are your settings */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -204,7 +206,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                               },
                                               text: FFLocalizations.of(context)
                                                   .getText(
-                                                '6htgkfed' /* Edit Profile */,
+                                                'o023h5n6' /* Edit Profile */,
                                               ),
                                               icon: Icon(
                                                 Icons.edit_outlined,
@@ -251,7 +253,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                         16, 16, 0, 0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        '27v6n9bj' /* Account */,
+                                        'z0onjgob' /* Account */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .subtitle2,
@@ -316,7 +318,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        '6y1z47zx' /* Switch to Dark Mode */,
+                                                        'o2u87fma' /* Switch to Dark Mode */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -467,7 +469,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        '6sf6t9na' /* Switch to Light Mode */,
+                                                        '39zo51wo' /* Switch to Light Mode */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -598,7 +600,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'jtibdv6o' /* Country */,
+                                                    'd58xskv5' /* Country */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -655,7 +657,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    '1343qjqz' /* Edit Profile */,
+                                                    'iybdhbjh' /* Edit Profile */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -680,7 +682,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                         16, 16, 0, 0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        '9crfjxkc' /* General */,
+                                        '7k81dngw' /* General */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .subtitle2,
@@ -723,7 +725,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'v706p56r' /* Support */,
+                                                    'wx0qyk8c' /* Support */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -780,7 +782,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'm3hu7hcs' /* Terms of Service */,
+                                                    'r0ucejq0' /* Terms of Service */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -837,7 +839,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'noj84n24' /* Invite Friends */,
+                                                    'zzevf95m' /* Invite Friends */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)

@@ -1,8 +1,5 @@
-import '../devices/devices_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
-import '../home_page/home_page_widget.dart';
-import '../profile/profile_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -30,6 +27,13 @@ class AltNav2Widget extends StatefulWidget {
 }
 
 class _AltNav2WidgetState extends State<AltNav2Widget> {
+  @override
+  void initState() {
+    super.initState();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
+  }
+
   @override
   Widget build(BuildContext context) {
     context.watch<FFAppState>();
@@ -76,14 +80,15 @@ class _AltNav2WidgetState extends State<AltNav2Widget> {
                   padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                   child: InkWell(
                     onTap: () async {
-                      await Navigator.push(
-                        context,
-                        PageTransition(
-                          type: PageTransitionType.fade,
-                          duration: Duration(milliseconds: 0),
-                          reverseDuration: Duration(milliseconds: 0),
-                          child: HomePageWidget(),
-                        ),
+                      context.pushNamed(
+                        'HomePage',
+                        extra: <String, dynamic>{
+                          kTransitionInfoKey: TransitionInfo(
+                            hasTransition: true,
+                            transitionType: PageTransitionType.fade,
+                            duration: Duration(milliseconds: 0),
+                          ),
+                        },
                       );
                     },
                     child: Row(
@@ -106,14 +111,15 @@ class _AltNav2WidgetState extends State<AltNav2Widget> {
                   padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                   child: InkWell(
                     onTap: () async {
-                      await Navigator.push(
-                        context,
-                        PageTransition(
-                          type: PageTransitionType.fade,
-                          duration: Duration(milliseconds: 0),
-                          reverseDuration: Duration(milliseconds: 0),
-                          child: DevicesWidget(),
-                        ),
+                      context.pushNamed(
+                        'devices',
+                        extra: <String, dynamic>{
+                          kTransitionInfoKey: TransitionInfo(
+                            hasTransition: true,
+                            transitionType: PageTransitionType.fade,
+                            duration: Duration(milliseconds: 0),
+                          ),
+                        },
                       );
                     },
                     child: Row(
@@ -143,14 +149,15 @@ class _AltNav2WidgetState extends State<AltNav2Widget> {
                   padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                   child: InkWell(
                     onTap: () async {
-                      await Navigator.push(
-                        context,
-                        PageTransition(
-                          type: PageTransitionType.fade,
-                          duration: Duration(milliseconds: 0),
-                          reverseDuration: Duration(milliseconds: 0),
-                          child: ProfileWidget(),
-                        ),
+                      context.pushNamed(
+                        'profile',
+                        extra: <String, dynamic>{
+                          kTransitionInfoKey: TransitionInfo(
+                            hasTransition: true,
+                            transitionType: PageTransitionType.fade,
+                            duration: Duration(milliseconds: 0),
+                          ),
+                        },
                       );
                     },
                     child: Row(
