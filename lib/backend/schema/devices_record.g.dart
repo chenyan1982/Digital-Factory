@@ -47,13 +47,6 @@ class _$DevicesRecordSerializer implements StructuredSerializer<DevicesRecord> {
         ..add(serializers.serialize(value,
             specifiedType: const FullType(String)));
     }
-    value = object.img;
-    if (value != null) {
-      result
-        ..add('img')
-        ..add(serializers.serialize(value,
-            specifiedType: const FullType(String)));
-    }
     value = object.totalOutput;
     if (value != null) {
       result
@@ -65,6 +58,13 @@ class _$DevicesRecordSerializer implements StructuredSerializer<DevicesRecord> {
       result
         ..add('todayOutput')
         ..add(serializers.serialize(value, specifiedType: const FullType(int)));
+    }
+    value = object.type;
+    if (value != null) {
+      result
+        ..add('type')
+        ..add(serializers.serialize(value,
+            specifiedType: const FullType(String)));
     }
     value = object.ffRef;
     if (value != null) {
@@ -105,10 +105,6 @@ class _$DevicesRecordSerializer implements StructuredSerializer<DevicesRecord> {
           result.location = serializers.deserialize(value,
               specifiedType: const FullType(String)) as String?;
           break;
-        case 'img':
-          result.img = serializers.deserialize(value,
-              specifiedType: const FullType(String)) as String?;
-          break;
         case 'totalOutput':
           result.totalOutput = serializers.deserialize(value,
               specifiedType: const FullType(int)) as int?;
@@ -116,6 +112,10 @@ class _$DevicesRecordSerializer implements StructuredSerializer<DevicesRecord> {
         case 'todayOutput':
           result.todayOutput = serializers.deserialize(value,
               specifiedType: const FullType(int)) as int?;
+          break;
+        case 'type':
+          result.type = serializers.deserialize(value,
+              specifiedType: const FullType(String)) as String?;
           break;
         case 'Document__Reference__Field':
           result.ffRef = serializers.deserialize(value,
@@ -140,11 +140,11 @@ class _$DevicesRecord extends DevicesRecord {
   @override
   final String? location;
   @override
-  final String? img;
-  @override
   final int? totalOutput;
   @override
   final int? todayOutput;
+  @override
+  final String? type;
   @override
   final DocumentReference<Object?>? ffRef;
 
@@ -156,9 +156,9 @@ class _$DevicesRecord extends DevicesRecord {
       this.status,
       this.address,
       this.location,
-      this.img,
       this.totalOutput,
       this.todayOutput,
+      this.type,
       this.ffRef})
       : super._();
 
@@ -177,9 +177,9 @@ class _$DevicesRecord extends DevicesRecord {
         status == other.status &&
         address == other.address &&
         location == other.location &&
-        img == other.img &&
         totalOutput == other.totalOutput &&
         todayOutput == other.todayOutput &&
+        type == other.type &&
         ffRef == other.ffRef;
   }
 
@@ -193,9 +193,9 @@ class _$DevicesRecord extends DevicesRecord {
                         $jc($jc($jc(0, name.hashCode), status.hashCode),
                             address.hashCode),
                         location.hashCode),
-                    img.hashCode),
-                totalOutput.hashCode),
-            todayOutput.hashCode),
+                    totalOutput.hashCode),
+                todayOutput.hashCode),
+            type.hashCode),
         ffRef.hashCode));
   }
 
@@ -206,9 +206,9 @@ class _$DevicesRecord extends DevicesRecord {
           ..add('status', status)
           ..add('address', address)
           ..add('location', location)
-          ..add('img', img)
           ..add('totalOutput', totalOutput)
           ..add('todayOutput', todayOutput)
+          ..add('type', type)
           ..add('ffRef', ffRef))
         .toString();
   }
@@ -234,10 +234,6 @@ class DevicesRecordBuilder
   String? get location => _$this._location;
   set location(String? location) => _$this._location = location;
 
-  String? _img;
-  String? get img => _$this._img;
-  set img(String? img) => _$this._img = img;
-
   int? _totalOutput;
   int? get totalOutput => _$this._totalOutput;
   set totalOutput(int? totalOutput) => _$this._totalOutput = totalOutput;
@@ -245,6 +241,10 @@ class DevicesRecordBuilder
   int? _todayOutput;
   int? get todayOutput => _$this._todayOutput;
   set todayOutput(int? todayOutput) => _$this._todayOutput = todayOutput;
+
+  String? _type;
+  String? get type => _$this._type;
+  set type(String? type) => _$this._type = type;
 
   DocumentReference<Object?>? _ffRef;
   DocumentReference<Object?>? get ffRef => _$this._ffRef;
@@ -261,9 +261,9 @@ class DevicesRecordBuilder
       _status = $v.status;
       _address = $v.address;
       _location = $v.location;
-      _img = $v.img;
       _totalOutput = $v.totalOutput;
       _todayOutput = $v.todayOutput;
+      _type = $v.type;
       _ffRef = $v.ffRef;
       _$v = null;
     }
@@ -291,9 +291,9 @@ class DevicesRecordBuilder
             status: status,
             address: address,
             location: location,
-            img: img,
             totalOutput: totalOutput,
             todayOutput: todayOutput,
+            type: type,
             ffRef: ffRef);
     replace(_$result);
     return _$result;

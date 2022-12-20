@@ -1,4 +1,4 @@
-# Digital Factory
+# digital-factory
 
 A new Flutter project.
 

@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Digital Factory</string>
+	<string>digital-factory</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Digital Factory</string>
+	<string>digital-factory</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleLocalizations</key>
@@ -36,7 +36,7 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>com.googleusercontent.apps.223129545827-4vfehl4i4l32jdkrg56nne958irsjcro</string>
+                <string>com.googleusercontent.apps.31365015095-gjqimacbr3opj78h0108ts3skj96odsv</string>
                 
             </array>
         </dict>
@@ -61,7 +61,10 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 
-
+	<key>NSCameraUsageDescription</key>
+      <string>In order to take a picture or video, this app requires permission to access the camera.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+      <string>In order to upload media, this app requires permission to access the photo library.</string>
 	<key>NSContactsUsageDescription</key>
       <string>Need allow access your contacts</string>
 	<key>NSCameraUsageDescription</key>

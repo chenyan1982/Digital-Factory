@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>223129545827-4vfehl4i4l32jdkrg56nne958irsjcro.apps.googleusercontent.com</string>
+	<string>31365015095-gjqimacbr3opj78h0108ts3skj96odsv.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.223129545827-4vfehl4i4l32jdkrg56nne958irsjcro</string>
+	<string>com.googleusercontent.apps.31365015095-gjqimacbr3opj78h0108ts3skj96odsv</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>223129545827-cc89lcqro65il9sagmc7c8a8ld2ahfta.apps.googleusercontent.com</string>
+	<string>31365015095-c4jpd4f2s19u36uekgflh2pl1iqjuct7.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDiSpRzyYYkxFSIIT-Xno8PiCPp66-JdHE</string>
+	<string>AIzaSyBFJxRWaCJqs6PP3_G3QX5tVl-7QImSmnM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>223129545827</string>
+	<string>31365015095</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.mycompany.responsivedashboard</string>
+	<string>com.inlaylink.digitalfactory</string>
 	<key>PROJECT_ID</key>
-	<string>fir-31692</string>
+	<string>digital-factory-2747f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fir-31692.appspot.com</string>
+	<string>digital-factory-2747f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,8 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:223129545827:ios:f7abba780f35292d381c56</string>
-	<key>DATABASE_URL</key>
-	<string>https://fir-31692.firebaseio.com</string>
+	<string>1:31365015095:ios:94bd9091763aa58d5941b2</string>
 </dict>
 </plist>

@@ -18,11 +18,11 @@ abstract class DevicesRecord
 
   String? get location;
 
-  String? get img;
-
   int? get totalOutput;
 
   int? get todayOutput;
+
+  String? get type;
 
   @BuiltValueField(wireName: kDocumentReferenceField)
   DocumentReference? get ffRef;
@@ -33,9 +33,9 @@ abstract class DevicesRecord
     ..status = 0
     ..address = ''
     ..location = ''
-    ..img = ''
     ..totalOutput = 0
-    ..todayOutput = 0;
+    ..todayOutput = 0
+    ..type = '';
 
   static CollectionReference get collection =>
       FirebaseFirestore.instance.collection('devices');
@@ -63,9 +63,9 @@ Map<String, dynamic> createDevicesRecordData({
   int? status,
   String? address,
   String? location,
-  String? img,
   int? totalOutput,
   int? todayOutput,
+  String? type,
 }) {
   final firestoreData = serializers.toFirestore(
     DevicesRecord.serializer,
@@ -75,9 +75,9 @@ Map<String, dynamic> createDevicesRecordData({
         ..status = status
         ..address = address
         ..location = location
-        ..img = img
         ..totalOutput = totalOutput
-        ..todayOutput = todayOutput,
+        ..todayOutput = todayOutput
+        ..type = type,
     ),
   );
 
