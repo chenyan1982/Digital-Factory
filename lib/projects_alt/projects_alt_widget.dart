@@ -39,9 +39,6 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
             navOne: FlutterFlowTheme.of(context).secondaryText,
             navTwo: FlutterFlowTheme.of(context).alternate,
             navThree: FlutterFlowTheme.of(context).secondaryText,
-            navFour: FlutterFlowTheme.of(context).secondaryText,
-            navFive: FlutterFlowTheme.of(context).secondaryText,
-            navSix: FlutterFlowTheme.of(context).secondaryText,
           ),
         ),
       ),
@@ -525,9 +522,6 @@ class _ProjectsAltWidgetState extends State<ProjectsAltWidget> {
                 navOne: FlutterFlowTheme.of(context).secondaryText,
                 navTwo: FlutterFlowTheme.of(context).alternate,
                 navThree: FlutterFlowTheme.of(context).secondaryText,
-                navFour: FlutterFlowTheme.of(context).secondaryText,
-                navFive: FlutterFlowTheme.of(context).secondaryText,
-                navSix: FlutterFlowTheme.of(context).secondaryText,
               ),
             Expanded(
               child: Column(

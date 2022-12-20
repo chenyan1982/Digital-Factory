@@ -1,9 +1,8 @@
-import '../billing/billing_widget.dart';
+import '../devices/devices_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../home_page/home_page_widget.dart';
-import '../projects/projects_widget.dart';
-import '../team_members/team_members_widget.dart';
+import '../profile/profile_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -113,7 +112,7 @@ class _AltNav2WidgetState extends State<AltNav2Widget> {
                           type: PageTransitionType.fade,
                           duration: Duration(milliseconds: 0),
                           reverseDuration: Duration(milliseconds: 0),
-                          child: ProjectsWidget(),
+                          child: DevicesWidget(),
                         ),
                       );
                     },
@@ -124,60 +123,13 @@ class _AltNav2WidgetState extends State<AltNav2Widget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                           child: Icon(
-                            Icons.grain_sharp,
+                            Icons.precision_manufacturing_sharp,
                             color: widget.navTwo,
                             size: 24,
                           ),
                         ),
                       ],
                     ),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                  child: InkWell(
-                    onTap: () async {
-                      await Navigator.push(
-                        context,
-                        PageTransition(
-                          type: PageTransitionType.fade,
-                          duration: Duration(milliseconds: 0),
-                          reverseDuration: Duration(milliseconds: 0),
-                          child: TeamMembersWidget(),
-                        ),
-                      );
-                    },
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                          child: Icon(
-                            Icons.group_rounded,
-                            color: widget.navFour,
-                            size: 24,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 12, 0, 8),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                        child: Icon(
-                          Icons.home_work_rounded,
-                          color: widget.navFive,
-                          size: 24,
-                        ),
-                      ),
-                    ],
                   ),
                 ),
                 Divider(
@@ -197,7 +149,7 @@ class _AltNav2WidgetState extends State<AltNav2Widget> {
                           type: PageTransitionType.fade,
                           duration: Duration(milliseconds: 0),
                           reverseDuration: Duration(milliseconds: 0),
-                          child: BillingWidget(),
+                          child: ProfileWidget(),
                         ),
                       );
                     },
@@ -208,30 +160,13 @@ class _AltNav2WidgetState extends State<AltNav2Widget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                           child: Icon(
-                            Icons.credit_card_rounded,
+                            Icons.account_circle_outlined,
                             color: widget.navThree,
                             size: 24,
                           ),
                         ),
                       ],
                     ),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                        child: Icon(
-                          Icons.settings_sharp,
-                          color: widget.navSix,
-                          size: 24,
-                        ),
-                      ),
-                    ],
                   ),
                 ),
               ],

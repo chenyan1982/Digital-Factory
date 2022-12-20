@@ -513,9 +513,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
                 navOne: FlutterFlowTheme.of(context).alternate,
                 navTwo: FlutterFlowTheme.of(context).secondaryText,
                 navThree: FlutterFlowTheme.of(context).secondaryText,
-                navFour: FlutterFlowTheme.of(context).secondaryText,
-                navFive: FlutterFlowTheme.of(context).secondaryText,
-                navSix: FlutterFlowTheme.of(context).secondaryText,
               ),
             Expanded(
               child: Column(
@@ -950,11 +947,13 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 width: double.infinity,
                                                 height: 170,
                                                 decoration: BoxDecoration(
-                                                  color: Color(0xFF4B39EF),
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryBackground,
                                                   boxShadow: [
                                                     BoxShadow(
-                                                      blurRadius: 5,
-                                                      color: Color(0x23000000),
+                                                      blurRadius: 4,
+                                                      color: Color(0x33000000),
                                                       offset: Offset(0, 2),
                                                     )
                                                   ],
@@ -991,8 +990,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                   .override(
                                                                     fontFamily:
                                                                         'Noto Sans',
-                                                                    color: Colors
-                                                                        .white,
+                                                                    color: FlutterFlowTheme.of(
+                                                                            context)
+                                                                        .primaryText,
                                                                     fontSize:
                                                                         20,
                                                                     fontWeight:
@@ -1023,9 +1023,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                   FaIcon(
                                                                     FontAwesomeIcons
                                                                         .cubes,
-                                                                    color: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .primaryBtnText,
+                                                                    color: Color(
+                                                                        0xFF03B1F9),
                                                                     size: 32,
                                                                   ),
                                                                   Align(
@@ -1042,7 +1041,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       style:
                                                                           TextStyle(
                                                                         color: FlutterFlowTheme.of(context)
-                                                                            .primaryBtnText,
+                                                                            .primaryText,
                                                                         fontWeight:
                                                                             FontWeight.w600,
                                                                         fontSize:
@@ -1080,7 +1079,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                       width: double.infinity,
                                       height: 170,
                                       decoration: BoxDecoration(
-                                        color: Color(0xFF4B39EF),
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryBackground,
                                         boxShadow: [
                                           BoxShadow(
                                             blurRadius: 5,
@@ -1124,8 +1124,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 .override(
                                                                   fontFamily:
                                                                       'Noto Sans',
-                                                                  color: Colors
-                                                                      .white,
+                                                                  color: FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .primaryText,
                                                                   fontSize: 20,
                                                                   fontWeight:
                                                                       FontWeight
@@ -1189,11 +1190,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                               .spaceBetween,
                                                       children: [
                                                         Icon(
-                                                          Icons
-                                                              .precision_manufacturing_sharp,
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .primaryBtnText,
+                                                          Icons.speed,
+                                                          color:
+                                                              Color(0xFF03B1F9),
                                                           size: 32,
                                                         ),
                                                         Align(
@@ -1209,8 +1208,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             style: GoogleFonts
                                                                 .getFont(
                                                               'Noto Sans',
-                                                              color:
-                                                                  Colors.white,
+                                                              color: FlutterFlowTheme
+                                                                      .of(context)
+                                                                  .primaryText,
                                                               fontWeight:
                                                                   FontWeight
                                                                       .w600,
@@ -1935,19 +1935,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                       color: FlutterFlowTheme.of(context).alternate,
                     ),
                     navTwoIcon: Icon(
-                      Icons.grain,
+                      Icons.precision_manufacturing_sharp,
                       color: FlutterFlowTheme.of(context).secondaryText,
                     ),
                     navThreeIcon: Icon(
-                      Icons.credit_card_rounded,
-                      color: FlutterFlowTheme.of(context).secondaryText,
-                    ),
-                    navFourIcon: Icon(
-                      Icons.group_rounded,
-                      color: FlutterFlowTheme.of(context).secondaryText,
-                    ),
-                    navFiveIcon: Icon(
-                      Icons.home_work_rounded,
+                      Icons.account_circle_outlined,
                       color: FlutterFlowTheme.of(context).secondaryText,
                     ),
                   ),

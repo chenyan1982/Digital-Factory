@@ -42,9 +42,6 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                 navOne: FlutterFlowTheme.of(context).secondaryText,
                 navTwo: FlutterFlowTheme.of(context).secondaryText,
                 navThree: FlutterFlowTheme.of(context).secondaryText,
-                navFour: FlutterFlowTheme.of(context).alternate,
-                navFive: FlutterFlowTheme.of(context).secondaryText,
-                navSix: FlutterFlowTheme.of(context).secondaryText,
               ),
             Expanded(
               child: Column(
@@ -1648,14 +1645,6 @@ class _TeamMembersWidgetState extends State<TeamMembersWidget> {
                     navThreeIcon: Icon(
                       Icons.credit_card_rounded,
                       color: FlutterFlowTheme.of(context).alternate,
-                    ),
-                    navFourIcon: Icon(
-                      Icons.group_rounded,
-                      color: FlutterFlowTheme.of(context).secondaryText,
-                    ),
-                    navFiveIcon: Icon(
-                      Icons.home_work_rounded,
-                      color: FlutterFlowTheme.of(context).secondaryText,
                     ),
                   ),
                 ],

@@ -1,9 +1,8 @@
-import '../billing/billing_widget.dart';
+import '../devices/devices_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../home_page/home_page_widget.dart';
-import '../projects/projects_widget.dart';
-import '../team_members/team_members_widget.dart';
+import '../profile/profile_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -110,7 +109,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                               type: PageTransitionType.fade,
                               duration: Duration(milliseconds: 0),
                               reverseDuration: Duration(milliseconds: 0),
-                              child: ProjectsWidget(),
+                              child: DevicesWidget(),
                             ),
                           );
                         },
@@ -122,7 +121,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                               child: Icon(
-                                Icons.grain_sharp,
+                                Icons.precision_manufacturing_sharp,
                                 color: widget.navTwo,
                                 size: 24,
                               ),
@@ -141,7 +140,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                               type: PageTransitionType.fade,
                               duration: Duration(milliseconds: 0),
                               reverseDuration: Duration(milliseconds: 0),
-                              child: TeamMembersWidget(),
+                              child: ProfileWidget(),
                             ),
                           );
                         },
@@ -153,78 +152,13 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                               child: Icon(
-                                Icons.group_rounded,
+                                Icons.account_circle_outlined,
                                 color: widget.navFour,
                                 size: 24,
                               ),
                             ),
                           ],
                         ),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 12, 0, 8),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                            child: Icon(
-                              Icons.home_work_rounded,
-                              color: widget.navFive,
-                              size: 24,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 8),
-                      child: InkWell(
-                        onTap: () async {
-                          await Navigator.push(
-                            context,
-                            PageTransition(
-                              type: PageTransitionType.fade,
-                              duration: Duration(milliseconds: 0),
-                              reverseDuration: Duration(milliseconds: 0),
-                              child: BillingWidget(),
-                            ),
-                          );
-                        },
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                              child: Icon(
-                                Icons.credit_card_rounded,
-                                color: widget.navThree,
-                                size: 24,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                            child: Icon(
-                              Icons.settings_sharp,
-                              color: widget.navSix,
-                              size: 24,
-                            ),
-                          ),
-                        ],
                       ),
                     ),
                   ],
@@ -263,7 +197,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                   children: [
                     Text(
                       FFLocalizations.of(context).getText(
-                        'i0qrdyp0' /* Platinum */,
+                        'i0qrdyp0' /* DigitalFacotry */,
                       ),
                       style: FlutterFlowTheme.of(context).title2,
                     ),
@@ -335,7 +269,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                           type: PageTransitionType.fade,
                           duration: Duration(milliseconds: 0),
                           reverseDuration: Duration(milliseconds: 0),
-                          child: ProjectsWidget(),
+                          child: DevicesWidget(),
                         ),
                       );
                     },
@@ -345,7 +279,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                           child: Icon(
-                            Icons.grain_sharp,
+                            Icons.precision_manufacturing_sharp,
                             color: widget.navTwo,
                             size: 24,
                           ),
@@ -354,7 +288,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'b86hxizm' /* Projects */,
+                              'b86hxizm' /* Devices */,
                             ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyText1
@@ -370,87 +304,6 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                         ),
                       ],
                     ),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                  child: InkWell(
-                    onTap: () async {
-                      await Navigator.push(
-                        context,
-                        PageTransition(
-                          type: PageTransitionType.fade,
-                          duration: Duration(milliseconds: 0),
-                          reverseDuration: Duration(milliseconds: 0),
-                          child: TeamMembersWidget(),
-                        ),
-                      );
-                    },
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      children: [
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                          child: Icon(
-                            Icons.group_rounded,
-                            color: widget.navFour,
-                            size: 24,
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
-                          child: Text(
-                            FFLocalizations.of(context).getText(
-                              '6w1dznz2' /* Team Members */,
-                            ),
-                            style: FlutterFlowTheme.of(context)
-                                .bodyText1
-                                .override(
-                                  fontFamily: FlutterFlowTheme.of(context)
-                                      .bodyText1Family,
-                                  color: widget.navFour,
-                                  useGoogleFonts: GoogleFonts.asMap()
-                                      .containsKey(FlutterFlowTheme.of(context)
-                                          .bodyText1Family),
-                                ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                        child: Icon(
-                          Icons.home_work_rounded,
-                          color: widget.navFive,
-                          size: 24,
-                        ),
-                      ),
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
-                        child: Text(
-                          FFLocalizations.of(context).getText(
-                            'w5r45419' /* Clients */,
-                          ),
-                          style: FlutterFlowTheme.of(context)
-                              .bodyText1
-                              .override(
-                                fontFamily: FlutterFlowTheme.of(context)
-                                    .bodyText1Family,
-                                color: widget.navFive,
-                                useGoogleFonts: GoogleFonts.asMap().containsKey(
-                                    FlutterFlowTheme.of(context)
-                                        .bodyText1Family),
-                              ),
-                        ),
-                      ),
-                    ],
                   ),
                 ),
                 Padding(
@@ -472,7 +325,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                           type: PageTransitionType.fade,
                           duration: Duration(milliseconds: 0),
                           reverseDuration: Duration(milliseconds: 0),
-                          child: BillingWidget(),
+                          child: ProfileWidget(),
                         ),
                       );
                     },
@@ -482,7 +335,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
                           child: Icon(
-                            Icons.credit_card_rounded,
+                            Icons.account_circle_outlined,
                             color: widget.navThree,
                             size: 24,
                           ),
@@ -491,7 +344,7 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'vi5wq5d3' /* Billing */,
+                              'vi5wq5d3' /* Profile */,
                             ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyText1
@@ -507,40 +360,6 @@ class _AltNavWidgetState extends State<AltNavWidget> {
                         ),
                       ],
                     ),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-                        child: Icon(
-                          Icons.settings_sharp,
-                          color: widget.navSix,
-                          size: 24,
-                        ),
-                      ),
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
-                        child: Text(
-                          FFLocalizations.of(context).getText(
-                            'eiyi9hsu' /* Settings */,
-                          ),
-                          style: FlutterFlowTheme.of(context)
-                              .bodyText1
-                              .override(
-                                fontFamily: FlutterFlowTheme.of(context)
-                                    .bodyText1Family,
-                                color: widget.navSix,
-                                useGoogleFonts: GoogleFonts.asMap().containsKey(
-                                    FlutterFlowTheme.of(context)
-                                        .bodyText1Family),
-                              ),
-                        ),
-                      ),
-                    ],
                   ),
                 ),
               ],

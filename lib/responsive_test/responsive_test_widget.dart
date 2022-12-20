@@ -41,9 +41,6 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                 navOne: FlutterFlowTheme.of(context).secondaryText,
                 navTwo: FlutterFlowTheme.of(context).alternate,
                 navThree: FlutterFlowTheme.of(context).secondaryText,
-                navFour: FlutterFlowTheme.of(context).secondaryText,
-                navFive: FlutterFlowTheme.of(context).secondaryText,
-                navSix: FlutterFlowTheme.of(context).secondaryText,
               ),
             Expanded(
               child: Column(
@@ -1252,14 +1249,6 @@ class _ResponsiveTestWidgetState extends State<ResponsiveTestWidget> {
                     ),
                     navThreeIcon: Icon(
                       Icons.credit_card_rounded,
-                      color: FlutterFlowTheme.of(context).secondaryText,
-                    ),
-                    navFourIcon: Icon(
-                      Icons.group_rounded,
-                      color: FlutterFlowTheme.of(context).secondaryText,
-                    ),
-                    navFiveIcon: Icon(
-                      Icons.home_work_rounded,
                       color: FlutterFlowTheme.of(context).secondaryText,
                     ),
                   ),

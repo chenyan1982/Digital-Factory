@@ -1709,14 +1709,6 @@ class _TeamMembersClientsWidgetState extends State<TeamMembersClientsWidget> {
                         Icons.credit_card_rounded,
                         color: FlutterFlowTheme.of(context).secondaryText,
                       ),
-                      navFourIcon: Icon(
-                        Icons.group_rounded,
-                        color: FlutterFlowTheme.of(context).secondaryText,
-                      ),
-                      navFiveIcon: Icon(
-                        Icons.home_work_rounded,
-                        color: FlutterFlowTheme.of(context).alternate,
-                      ),
                     ),
                 ],
               ),

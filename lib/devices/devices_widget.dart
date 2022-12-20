@@ -11,14 +11,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-class ProjectsWidget extends StatefulWidget {
-  const ProjectsWidget({Key? key}) : super(key: key);
+class DevicesWidget extends StatefulWidget {
+  const DevicesWidget({Key? key}) : super(key: key);
 
   @override
-  _ProjectsWidgetState createState() => _ProjectsWidgetState();
+  _DevicesWidgetState createState() => _DevicesWidgetState();
 }
 
-class _ProjectsWidgetState extends State<ProjectsWidget> {
+class _DevicesWidgetState extends State<DevicesWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -508,9 +508,6 @@ class _ProjectsWidgetState extends State<ProjectsWidget> {
                 navOne: FlutterFlowTheme.of(context).secondaryText,
                 navTwo: FlutterFlowTheme.of(context).alternate,
                 navThree: FlutterFlowTheme.of(context).secondaryText,
-                navFour: FlutterFlowTheme.of(context).secondaryText,
-                navFive: FlutterFlowTheme.of(context).secondaryText,
-                navSix: FlutterFlowTheme.of(context).secondaryText,
               ),
             Expanded(
               child: Column(
@@ -1999,19 +1996,11 @@ class _ProjectsWidgetState extends State<ProjectsWidget> {
                       color: FlutterFlowTheme.of(context).secondaryText,
                     ),
                     navTwoIcon: Icon(
-                      Icons.grain,
+                      Icons.precision_manufacturing_sharp,
                       color: FlutterFlowTheme.of(context).alternate,
                     ),
                     navThreeIcon: Icon(
-                      Icons.credit_card_rounded,
-                      color: FlutterFlowTheme.of(context).secondaryText,
-                    ),
-                    navFourIcon: Icon(
-                      Icons.group_rounded,
-                      color: FlutterFlowTheme.of(context).secondaryText,
-                    ),
-                    navFiveIcon: Icon(
-                      Icons.home_work_rounded,
+                      Icons.account_circle_outlined,
                       color: FlutterFlowTheme.of(context).secondaryText,
                     ),
                   ),
