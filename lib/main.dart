@@ -12,6 +12,8 @@ import 'flutter_flow/internationalization.dart';
 import 'flutter_flow/nav/nav.dart';
 import 'index.dart';
 
+import 'backend/stripe/payment_manager.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -19,6 +21,8 @@ void main() async {
   await FlutterFlowTheme.initialize();
 
   final appState = FFAppState(); // Initialize FFAppState
+
+  await initializeStripe();
 
   runApp(ChangeNotifierProvider(
     create: (context) => appState,
