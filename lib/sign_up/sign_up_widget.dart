@@ -100,7 +100,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                             ),
                             Text(
                               FFLocalizations.of(context).getText(
-                                'w9u89e4f' /* Get Started */,
+                                '0i52ikpv' /* Get Started */,
                               ),
                               style: FlutterFlowTheme.of(context).title1,
                             ),
@@ -109,7 +109,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                   EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'kt7hjvcx' /* Create an account by using the... */,
+                                  '5a1k51jc' /* Create an account by using the... */,
                                 ),
                                 style: FlutterFlowTheme.of(context).bodyText2,
                               ),
@@ -131,14 +131,14 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                         decoration: InputDecoration(
                                           labelText: FFLocalizations.of(context)
                                               .getText(
-                                            'ah46mbj9' /* Email Address */,
+                                            'ilkd82j5' /* Email Address */,
                                           ),
                                           labelStyle:
                                               FlutterFlowTheme.of(context)
                                                   .bodyText2,
                                           hintText: FFLocalizations.of(context)
                                               .getText(
-                                            '62bpeczy' /* Enter your email here... */,
+                                            'y9b0zxkc' /* Enter your email here... */,
                                           ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
@@ -210,13 +210,13 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                       decoration: InputDecoration(
                                         labelText:
                                             FFLocalizations.of(context).getText(
-                                          'm5gwsv7q' /* Password */,
+                                          'ekyry463' /* Password */,
                                         ),
                                         labelStyle: FlutterFlowTheme.of(context)
                                             .bodyText2,
                                         hintText:
                                             FFLocalizations.of(context).getText(
-                                          'pvp695f6' /* Enter your email here... */,
+                                          'badt9h89' /* Enter your email here... */,
                                         ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .bodyText2,
@@ -310,7 +310,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                           'createProfile', mounted);
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'dsyxd0d7' /* Sign Up */,
+                                      'wl74m7xn' /* Sign Up */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 130,
@@ -349,7 +349,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                 children: [
                                   AutoSizeText(
                                     FFLocalizations.of(context).getText(
-                                      '39tixtfd' /* Use a social platform to conti... */,
+                                      'inp36tzv' /* Use a social platform to conti... */,
                                     ),
                                     textAlign: TextAlign.center,
                                     style:
@@ -458,7 +458,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                           0, 8, 0, 8),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'yat8s6jj' /* Already have an account? */,
+                                          'sxsbbdec' /* Already have an account? */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1,
@@ -469,7 +469,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                           8, 8, 0, 8),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'que6w7oj' /* Login */,
+                                          'nzgwexi2' /* Login */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .subtitle2
@@ -512,7 +512,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                       context.goNamedAuth('HomePage', mounted);
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'tpr5ninx' /* Continue as Guest */,
+                                      '7z0e0jir' /* Continue as Guest */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 270,

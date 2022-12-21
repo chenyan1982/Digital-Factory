@@ -425,6 +425,37 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '家',
     },
   },
+  // Language
+  {
+    'cepltokh': {
+      'en': 'Hello World',
+      'de': 'Hallo Welt',
+      'fr': 'Bonjour le monde',
+      'ja': 'こんにちは世界',
+      'zh_Hans': '你好世界',
+    },
+    '1ujk81ko': {
+      'en': 'English',
+      'de': 'Englisch',
+      'fr': 'Anglais',
+      'ja': '英語',
+      'zh_Hans': '英语',
+    },
+    'qhhqh5l4': {
+      'en': 'chinese',
+      'de': 'Chinesisch',
+      'fr': 'chinois',
+      'ja': '中文',
+      'zh_Hans': '中文',
+    },
+    'pa61qrgm': {
+      'en': 'Home',
+      'de': '',
+      'fr': '',
+      'ja': '',
+      'zh_Hans': '',
+    },
+  },
   // responsiveTest
   {
     'cbhgiwm8': {
@@ -687,37 +718,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '家',
     },
   },
-  // Language
-  {
-    'cepltokh': {
-      'en': 'Hello World',
-      'de': 'Hallo Welt',
-      'fr': 'Bonjour le monde',
-      'ja': 'こんにちは世界',
-      'zh_Hans': '你好世界',
-    },
-    '1ujk81ko': {
-      'en': 'English',
-      'de': 'Englisch',
-      'fr': 'Anglais',
-      'ja': '英語',
-      'zh_Hans': '英语',
-    },
-    'qhhqh5l4': {
-      'en': 'chinese',
-      'de': 'Chinesisch',
-      'fr': 'chinois',
-      'ja': '中文',
-      'zh_Hans': '中文',
-    },
-    'pa61qrgm': {
-      'en': 'Home',
-      'de': '',
-      'fr': '',
-      'ja': '',
-      'zh_Hans': '',
-    },
-  },
   // profile
   {
     'g7a9ubvk': {
@@ -814,91 +814,91 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // signIn
   {
-    'l3jtteyk': {
+    'x3pjyhn2': {
       'en': 'Welcome Back!',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '434j7haa': {
+    'xjnd69ad': {
       'en': 'Use the form below to access your account.',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ww97lzg7': {
+    'ysfzvre4': {
       'en': 'Email Address',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'iv5zm6wu': {
+    '3fxmvps1': {
       'en': 'Enter your email here...',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'o1gy8z12': {
+    'kzzb2hxd': {
       'en': 'Password',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '3iaref0k': {
+    '8aegaj89': {
       'en': 'Enter your email here...',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'kxs6g3e2': {
+    'je6bu5le': {
       'en': 'Forgot Password?',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'rx9s8vlm': {
+    'osbkxc8u': {
       'en': 'Sign In',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'hf3mjvyg': {
+    'dqsmjf9w': {
       'en': 'Use a social platform to continue',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'fpxabyiz': {
+    'eqc7eq5k': {
       'en': 'Don\'t have an account?',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ygxbi7qu': {
+    'hzq7uv8j': {
       'en': 'Create Account',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'g1ppos5t': {
+    '2d9muoh8': {
       'en': 'Continue as Guest',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'qu6bbsv3': {
+    'xju1dys8': {
       'en': 'Home',
       'de': '',
       'fr': '',
@@ -908,84 +908,84 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // signUp
   {
-    'w9u89e4f': {
+    '0i52ikpv': {
       'en': 'Get Started',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'kt7hjvcx': {
+    '5a1k51jc': {
       'en': 'Create an account by using the form below.',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ah46mbj9': {
+    'ilkd82j5': {
       'en': 'Email Address',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '62bpeczy': {
+    'y9b0zxkc': {
       'en': 'Enter your email here...',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'm5gwsv7q': {
+    'ekyry463': {
       'en': 'Password',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'pvp695f6': {
+    'badt9h89': {
       'en': 'Enter your email here...',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'dsyxd0d7': {
+    'wl74m7xn': {
       'en': 'Sign Up',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '39tixtfd': {
+    'inp36tzv': {
       'en': 'Use a social platform to continue',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'yat8s6jj': {
+    'sxsbbdec': {
       'en': 'Already have an account?',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'que6w7oj': {
+    'nzgwexi2': {
       'en': 'Login',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'tpr5ninx': {
+    '7z0e0jir': {
       'en': 'Continue as Guest',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'kkwa4e9z': {
+    'ztd45ex6': {
       'en': 'Home',
       'de': '',
       'fr': '',
@@ -995,420 +995,420 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // createProfile
   {
-    'lz5owbq9': {
+    '8t9uzheh': {
       'en': 'Create Profile',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '36zkph5y': {
+    '0utv8zgf': {
       'en': 'Your Name',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '9b8owyq9': {
+    'rojigrmt': {
       'en': 'Your City',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'sum5me41': {
+    '1xr0dexa': {
       'en': 'State',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '1o58ylc8': {
+    'l7bcdecp': {
       'en': 'State',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ay0cik2y': {
+    '1a5rz8d2': {
       'en': 'Alabama',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'th2bk0ym': {
+    'm5y7mz8g': {
       'en': 'Alaska',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'mc2ayhfs': {
+    'ouuzm4mw': {
       'en': 'Arizona',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '68lvaold': {
+    'n2kptme2': {
       'en': 'Arkansas',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'nvvqueql': {
+    'rj63afa8': {
       'en': 'California',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '9xsa6ulp': {
+    '4372hs22': {
       'en': 'Colorado',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'yj2hqlt6': {
+    'f5c69gn0': {
       'en': 'Connecticut',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'b7u2za9g': {
+    'ff2ecqd0': {
       'en': 'Delaware',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '55w6ie82': {
+    'uz4617iv': {
       'en': 'Florida',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'kjbrasqs': {
+    'gfbk0de7': {
       'en': 'Georgia',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'uuo8ki6q': {
+    'rzzsnmte': {
       'en': 'Hawaii',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'hhwyn2dk': {
+    '5jjheo6s': {
       'en': 'Idaho',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'dj1e0s6x': {
+    '9xukawl3': {
       'en': 'Illinoi',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'wn461ugw': {
+    'fwrw3y19': {
       'en': 'Indiana',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'e8pmqdt1': {
+    'owk1p9dp': {
       'en': 'Iowa',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '3hrdqq3c': {
+    '2jaf5o77': {
       'en': 'Kansas',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'fvrahmi7': {
+    '4f3x00uo': {
       'en': 'Kentucky',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'wb3ikwta': {
+    'pkutxruf': {
       'en': 'Louisiana',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'tjvipti1': {
+    'jfe7dbtu': {
       'en': 'Maine',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '5odq2qqr': {
+    'riae458m': {
       'en': 'Maryland',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'sh02ys3b': {
+    'aeuqbree': {
       'en': 'Massachusetts',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'lqy7mzrt': {
+    'k6516rep': {
       'en': 'Michigan',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'vrqzvcxf': {
+    'oesjqokk': {
       'en': 'Minnesota',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '5ims9zun': {
+    '4l013y4k': {
       'en': 'Mississippi',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'a64visv7': {
+    'n4byh7yq': {
       'en': 'Missouri',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '99umqkel': {
+    '483zot8y': {
       'en': 'Monta',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'hyx3ekee': {
+    '5dl70m25': {
       'en': 'Nebraska',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'i3yeihf3': {
+    '9z6ucfxr': {
       'en': 'Nevada',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'o0gwfqbr': {
+    '50hu934a': {
       'en': 'New Hampshire',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    't6kool76': {
+    'z8zc17y1': {
       'en': 'New Jersey',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'mz5f7e1v': {
+    '5ygdlnyz': {
       'en': 'New Mexico',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'yqx1zzdr': {
+    '8i88r8pa': {
       'en': 'New York',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'qo18yil9': {
+    'ch493xs5': {
       'en': 'North Carolina',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '34kafr09': {
+    'jcneqsn7': {
       'en': 'North Dak',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ozhlxcej': {
+    '1m8f0w6z': {
       'en': 'Ohio',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ybp2nkcd': {
+    'vly86v6g': {
       'en': 'Oklahoma',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '1o6usb34': {
+    'xc4u6qlh': {
       'en': 'Oregon',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'j0i4djdx': {
+    'vra6obac': {
       'en': 'Pennsylvani',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ahc6i725': {
+    'i7py80jo': {
       'en': 'Rhode Island',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'i0jrtggw': {
+    'u5gz507n': {
       'en': 'South Caroli',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '2802yhp8': {
+    '7w94qj9e': {
       'en': 'South Dakota',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'cq5eyvxl': {
+    '58e6ws1e': {
       'en': 'Tennessee',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'f1mx1412': {
+    '2ytyi7gz': {
       'en': 'Texas',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'qguuu1sz': {
+    'enitnfpa': {
       'en': 'Utah',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'jgpzvhmv': {
+    'nwqevjxp': {
       'en': 'Vermont',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'bvyggt92': {
+    's8xai7rl': {
       'en': 'Virginia',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'tqdfvsp1': {
+    '5equd54b': {
       'en': 'Washingto',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '2ovydsma': {
+    'zukuhigj': {
       'en': 'West Virginia',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'b9mjv7of': {
+    'rlskah2n': {
       'en': 'Wisconsin',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    's8ctapc3': {
+    'accazyf9': {
       'en': 'Wyoming',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '6cvw6ch4': {
+    '410hnlga': {
       'en': 'Select State',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'gty9x3ww': {
+    '5dkgt7rd': {
       'en': 'Your bio',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'nw1bqay5': {
+    '0pxdperx': {
       'en': 'Save Changes',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'rdqckjrg': {
+    '49jcqbv0': {
       'en': 'Create Profile',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '6vudafy9': {
+    'bap0yno0': {
       'en': 'Home',
       'de': '',
       'fr': '',
@@ -1418,14 +1418,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // forgotPassword
   {
-    'ras9m6jp': {
+    'ua93pz1r': {
       'en': 'Forgot Password',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'f1s90q8z': {
+    'n0qd59as': {
       'en':
           'We will send you an email with a link to reset your password, please enter the email associated with your account below.',
       'de': '',
@@ -1433,35 +1433,35 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ja': '',
       'zh_Hans': '',
     },
-    'ud7wgzwo': {
+    'ek0la9km': {
       'en': 'Your email',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '0ky26p03': {
+    'vvnqpaym': {
       'en': 'Enter your email to recieve a linke...',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'yb27uqqt': {
+    'grzhkryr': {
       'en': 'Send Reset Link',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'jfzc1pwu': {
+    'i49gj6a1': {
       'en': 'Forgot Password',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'c38whx8c': {
+    'zt02zprv': {
       'en': 'Home',
       'de': '',
       'fr': '',
@@ -1471,49 +1471,49 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // phoneSignIn
   {
-    'm5c3sn4w': {
+    'wt3wf6jf': {
       'en': 'Phone Sign In',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'nc9hgomf': {
+    '540aou30': {
       'en': 'Phone Sign In',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'vh0ol8x0': {
+    '7uj357ej': {
       'en': 'Type in your phone number below to register.',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'oiqpo6i0': {
+    'i9vgdxeu': {
       'en': 'Your Phone Number',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ky1o0pxp': {
+    'ob0mzwjh': {
       'en': 'Please enter a valid number...',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'ez876eyy': {
+    '30vrts83': {
       'en': 'Sign In with Phone',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'zp3fev4b': {
+    'xwgt4fg9': {
       'en': 'Home',
       'de': '',
       'fr': '',
@@ -1523,40 +1523,175 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // phoneVerify
   {
-    'ywoaexn6': {
+    'xqlwykms': {
       'en': 'PhoneVerify',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'v49uj5mr': {
+    '3h4s915g': {
       'en': 'Confirm your Code',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    '15bs0a8b': {
+    'dufq2fek': {
       'en': 'This code helps keep your account safe and secure.',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'k9r2d5dd': {
+    'itslfr93': {
       'en': 'Confirm & Continue',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
     },
-    'vazm1640': {
+    'i1e34ouv': {
       'en': 'Home',
       'de': '',
       'fr': '',
       'ja': '',
       'zh_Hans': '',
+    },
+  },
+  // devicesCopy
+  {
+    'sq7whvd7': {
+      'en': 'Your Device',
+      'de': 'Ihr Gerät',
+      'fr': 'Votre appareil',
+      'ja': 'あなたのデバイス',
+      'zh_Hans': '你的设备',
+    },
+    'uwf38tav': {
+      'en': 'Your projects are below',
+      'de': 'Ihre Projekte sind unten',
+      'fr': 'Vos projets ci-dessous',
+      'ja': 'あなたのプロジェクトは以下のとおりです',
+      'zh_Hans': '您的项目如下',
+    },
+    'ung48p3m': {
+      'en': '1',
+      'de': '1',
+      'fr': '1',
+      'ja': '1',
+      'zh_Hans': '1个',
+    },
+    'g4wgai3p': {
+      'en': 'Notifications',
+      'de': 'Benachrichtigungen',
+      'fr': 'Avis',
+      'ja': '通知',
+      'zh_Hans': '通知',
+    },
+    'ztplktp1': {
+      'en': 'Below are you new notifications.',
+      'de': 'Unten sind Ihre neuen Benachrichtigungen.',
+      'fr': 'Vous trouverez ci-dessous de nouvelles notifications.',
+      'ja': '以下は新しい通知です。',
+      'zh_Hans': '以下是您的新通知。',
+    },
+    'iz6jrii7': {
+      'en': 'Username here',
+      'de': 'Benutzername hier',
+      'fr': 'Nom d\'utilisateur ici',
+      'ja': 'ユーザー名はこちら',
+      'zh_Hans': '用户名在这里',
+    },
+    'ksez3kno': {
+      'en': 'okay wow, you could definitely catch meat the restaurant in Ibiza',
+      'de':
+          'Okay, wow, Fleisch kann man definitiv im Restaurant auf Ibiza fangen',
+      'fr':
+          'ok wow, vous pourriez certainement attraper de la viande au restaurant à Ibiza',
+      'ja': 'わかりました、イビサ島のレストランで間違いなく肉を釣ることができました',
+      'zh_Hans': '好的哇，你绝对可以在伊维萨岛的餐厅吃肉',
+    },
+    'r2h75wh2': {
+      'en': 'Posted',
+      'de': 'Gesendet',
+      'fr': 'Posté',
+      'ja': '投稿しました',
+      'zh_Hans': '发表',
+    },
+    'tp8x4mw9': {
+      'en': 'A few moments ago',
+      'de': 'Vor ein paar Augenblicken',
+      'fr': 'Il y a quelques instants',
+      'ja': '少し前',
+      'zh_Hans': '几分钟前',
+    },
+    'touv5jw6': {
+      'en': 'Username here',
+      'de': 'Benutzername hier',
+      'fr': 'Nom d\'utilisateur ici',
+      'ja': 'ユーザー名はこちら',
+      'zh_Hans': '用户名在这里',
+    },
+    'e6j0rkt6': {
+      'en': 'okay wow, you could definitely catch meat the restaurant in Ibiza',
+      'de':
+          'Okay, wow, Fleisch kann man definitiv im Restaurant auf Ibiza fangen',
+      'fr':
+          'ok wow, vous pourriez certainement attraper de la viande au restaurant à Ibiza',
+      'ja': 'わかりました、イビサ島のレストランで間違いなく肉を釣ることができました',
+      'zh_Hans': '好的哇，你绝对可以在伊维萨岛的餐厅吃肉',
+    },
+    'gum79urz': {
+      'en': 'Posted',
+      'de': 'Gesendet',
+      'fr': 'Posté',
+      'ja': '投稿しました',
+      'zh_Hans': '发表',
+    },
+    'oi5lwlww': {
+      'en': 'A few moments ago',
+      'de': 'Vor ein paar Augenblicken',
+      'fr': 'Il y a quelques instants',
+      'ja': '少し前',
+      'zh_Hans': '几分钟前',
+    },
+    '1hmi171e': {
+      'en': 'Username here',
+      'de': 'Benutzername hier',
+      'fr': 'Nom d\'utilisateur ici',
+      'ja': 'ユーザー名はこちら',
+      'zh_Hans': '用户名在这里',
+    },
+    'wf83js02': {
+      'en': 'okay wow, you could definitely catch meat the restaurant in Ibiza',
+      'de':
+          'Okay, wow, Fleisch kann man definitiv im Restaurant auf Ibiza fangen',
+      'fr':
+          'ok wow, vous pourriez certainement attraper de la viande au restaurant à Ibiza',
+      'ja': 'わかりました、イビサ島のレストランで間違いなく肉を釣ることができました',
+      'zh_Hans': '好的哇，你绝对可以在伊维萨岛的餐厅吃肉',
+    },
+    'j0gqvfwq': {
+      'en': 'Posted',
+      'de': 'Gesendet',
+      'fr': 'Posté',
+      'ja': '投稿しました',
+      'zh_Hans': '发表',
+    },
+    'gkchjs66': {
+      'en': 'A few moments ago',
+      'de': 'Vor ein paar Augenblicken',
+      'fr': 'Il y a quelques instants',
+      'ja': '少し前',
+      'zh_Hans': '几分钟前',
+    },
+    '7hfv5ffv': {
+      'en': 'Home',
+      'de': 'Zuhause',
+      'fr': 'Domicile',
+      'ja': '家',
+      'zh_Hans': '家',
     },
   },
   // mainWebNav
@@ -1820,7 +1955,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // deviceListItem
   {
-    'dlc9eg2k': {
+    'eyv2tlvc': {
       'en': 'Today amount',
       'de': '',
       'fr': '',

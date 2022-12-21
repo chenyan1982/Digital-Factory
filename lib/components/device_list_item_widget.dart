@@ -71,7 +71,7 @@ class _DeviceListItemWidgetState extends State<DeviceListItemWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(0, 4, 4, 0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'dlc9eg2k' /* Today amount */,
+                              'eyv2tlvc' /* Today amount */,
                             ),
                             style: FlutterFlowTheme.of(context).bodyText2,
                           ),

@@ -88,14 +88,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => DevicesWidget(),
             ),
             FFRoute(
-              name: 'responsiveTest',
-              path: 'responsiveTest',
-              builder: (context, params) => ResponsiveTestWidget(),
-            ),
-            FFRoute(
               name: 'Language',
               path: 'language',
               builder: (context, params) => LanguageWidget(),
+            ),
+            FFRoute(
+              name: 'responsiveTest',
+              path: 'responsiveTest',
+              builder: (context, params) => ResponsiveTestWidget(),
             ),
             FFRoute(
               name: 'profile',
@@ -131,6 +131,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'phoneVerify',
               path: 'phoneVerify',
               builder: (context, params) => PhoneVerifyWidget(),
+            ),
+            FFRoute(
+              name: 'devicesCopy',
+              path: 'devicesCopy',
+              builder: (context, params) => DevicesCopyWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),

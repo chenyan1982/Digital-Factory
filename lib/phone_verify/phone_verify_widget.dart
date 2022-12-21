@@ -58,7 +58,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
         ),
         title: Text(
           FFLocalizations.of(context).getText(
-            'ywoaexn6' /* PhoneVerify */,
+            'xqlwykms' /* PhoneVerify */,
           ),
           style: FlutterFlowTheme.of(context).title3.override(
                 fontFamily: FlutterFlowTheme.of(context).title3Family,
@@ -123,7 +123,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
                               ),
                               Text(
                                 FFLocalizations.of(context).getText(
-                                  'v49uj5mr' /* Confirm your Code */,
+                                  '3h4s915g' /* Confirm your Code */,
                                 ),
                                 style: FlutterFlowTheme.of(context).title3,
                               ),
@@ -134,7 +134,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(16, 8, 16, 0),
                         child: Text(
                           FFLocalizations.of(context).getText(
-                            '15bs0a8b' /* This code helps keep your acco... */,
+                            'dufq2fek' /* This code helps keep your acco... */,
                           ),
                           textAlign: TextAlign.start,
                           style: FlutterFlowTheme.of(context).bodyText2,
@@ -212,7 +212,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
                             context.goNamedAuth('HomePage', mounted);
                           },
                           text: FFLocalizations.of(context).getText(
-                            'k9r2d5dd' /* Confirm & Continue */,
+                            'itslfr93' /* Confirm & Continue */,
                           ),
                           options: FFButtonOptions(
                             width: 270,

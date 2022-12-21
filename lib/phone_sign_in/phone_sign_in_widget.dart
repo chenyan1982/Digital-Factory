@@ -89,7 +89,7 @@ class _PhoneSignInWidgetState extends State<PhoneSignInWidget>
         ),
         title: Text(
           FFLocalizations.of(context).getText(
-            'm5c3sn4w' /* Phone Sign In */,
+            'wt3wf6jf' /* Phone Sign In */,
           ),
           style: FlutterFlowTheme.of(context).title3.override(
                 fontFamily: FlutterFlowTheme.of(context).title3Family,
@@ -154,7 +154,7 @@ class _PhoneSignInWidgetState extends State<PhoneSignInWidget>
                               ),
                               Text(
                                 FFLocalizations.of(context).getText(
-                                  'nc9hgomf' /* Phone Sign In */,
+                                  '540aou30' /* Phone Sign In */,
                                 ),
                                 style: FlutterFlowTheme.of(context).title3,
                               ),
@@ -170,7 +170,7 @@ class _PhoneSignInWidgetState extends State<PhoneSignInWidget>
                                   EdgeInsetsDirectional.fromSTEB(16, 8, 16, 0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'vh0ol8x0' /* Type in your phone number belo... */,
+                                  '7uj357ej' /* Type in your phone number belo... */,
                                 ),
                                 style: FlutterFlowTheme.of(context).bodyText2,
                               ).animateOnPageLoad(
@@ -187,11 +187,11 @@ class _PhoneSignInWidgetState extends State<PhoneSignInWidget>
                           obscureText: false,
                           decoration: InputDecoration(
                             labelText: FFLocalizations.of(context).getText(
-                              'oiqpo6i0' /* Your Phone Number */,
+                              'i9vgdxeu' /* Your Phone Number */,
                             ),
                             labelStyle: FlutterFlowTheme.of(context).bodyText2,
                             hintText: FFLocalizations.of(context).getText(
-                              'ky1o0pxp' /* Please enter a valid number... */,
+                              'ob0mzwjh' /* Please enter a valid number... */,
                             ),
                             hintStyle: FlutterFlowTheme.of(context).bodyText2,
                             enabledBorder: OutlineInputBorder(
@@ -268,7 +268,7 @@ class _PhoneSignInWidgetState extends State<PhoneSignInWidget>
                             );
                           },
                           text: FFLocalizations.of(context).getText(
-                            'ez876eyy' /* Sign In with Phone */,
+                            '30vrts83' /* Sign In with Phone */,
                           ),
                           options: FFButtonOptions(
                             width: 230,

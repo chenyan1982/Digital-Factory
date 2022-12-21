@@ -77,6 +77,20 @@ class GetCustomerDeviceInfosCall {
 
 /// End thingsBoard Group Code
 
+class PicsumCall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'picsum',
+      apiUrl: 'https://picsum.photos/v2/list',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+      cache: false,
+    );
+  }
+}
+
 class ApiPagingParams {
   int nextPageNumber = 0;
   int numItems = 0;

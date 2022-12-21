@@ -99,7 +99,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                             ),
                             Text(
                               FFLocalizations.of(context).getText(
-                                'l3jtteyk' /* Welcome Back! */,
+                                'x3pjyhn2' /* Welcome Back! */,
                               ),
                               style: FlutterFlowTheme.of(context).title1,
                             ),
@@ -108,7 +108,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                   EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  '434j7haa' /* Use the form below to access y... */,
+                                  'xjnd69ad' /* Use the form below to access y... */,
                                 ),
                                 style: FlutterFlowTheme.of(context).bodyText2,
                               ),
@@ -130,14 +130,14 @@ class _SignInWidgetState extends State<SignInWidget> {
                                         decoration: InputDecoration(
                                           labelText: FFLocalizations.of(context)
                                               .getText(
-                                            'ww97lzg7' /* Email Address */,
+                                            'ysfzvre4' /* Email Address */,
                                           ),
                                           labelStyle:
                                               FlutterFlowTheme.of(context)
                                                   .bodyText2,
                                           hintText: FFLocalizations.of(context)
                                               .getText(
-                                            'iv5zm6wu' /* Enter your email here... */,
+                                            '3fxmvps1' /* Enter your email here... */,
                                           ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
@@ -209,13 +209,13 @@ class _SignInWidgetState extends State<SignInWidget> {
                                       decoration: InputDecoration(
                                         labelText:
                                             FFLocalizations.of(context).getText(
-                                          'o1gy8z12' /* Password */,
+                                          'kzzb2hxd' /* Password */,
                                         ),
                                         labelStyle: FlutterFlowTheme.of(context)
                                             .bodyText2,
                                         hintText:
                                             FFLocalizations.of(context).getText(
-                                          '3iaref0k' /* Enter your email here... */,
+                                          '8aegaj89' /* Enter your email here... */,
                                         ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .bodyText2,
@@ -299,7 +299,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                           'Button-ForgotPassword pressed ...');
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'kxs6g3e2' /* Forgot Password? */,
+                                      'je6bu5le' /* Forgot Password? */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 170,
@@ -330,7 +330,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                       context.goNamedAuth('HomePage', mounted);
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'rx9s8vlm' /* Sign In */,
+                                      'osbkxc8u' /* Sign In */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 130,
@@ -369,7 +369,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                 children: [
                                   AutoSizeText(
                                     FFLocalizations.of(context).getText(
-                                      'hf3mjvyg' /* Use a social platform to conti... */,
+                                      'dqsmjf9w' /* Use a social platform to conti... */,
                                     ),
                                     textAlign: TextAlign.center,
                                     style:
@@ -430,7 +430,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                           0, 8, 0, 8),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'fpxabyiz' /* Don't have an account? */,
+                                          'eqc7eq5k' /* Don't have an account? */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1,
@@ -441,7 +441,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                           8, 8, 0, 8),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'ygxbi7qu' /* Create Account */,
+                                          'hzq7uv8j' /* Create Account */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .subtitle2
@@ -484,7 +484,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                       context.goNamedAuth('HomePage', mounted);
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'g1ppos5t' /* Continue as Guest */,
+                                      '2d9muoh8' /* Continue as Guest */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 270,
