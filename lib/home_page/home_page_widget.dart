@@ -1388,10 +1388,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                       ],
                                     ),
                                   ),
-                                Text(
-                                  FFAppState().token,
-                                  style: FlutterFlowTheme.of(context).bodyText1,
-                                ),
                               ],
                             ),
                           ),
