@@ -475,11 +475,11 @@ class _SignInWidgetState extends State<SignInWidget> {
                                   FFButtonWidget(
                                     onPressed: () async {
                                       GoRouter.of(context).prepareAuthEvent();
-                                      final user =
-                                          await signInAnonymously(context);
-                                      if (user == null) {
-                                        return;
-                                      }
+                                      // final user =
+                                      //     await signInAnonymously(context);
+                                      // if (user == null) {
+                                      //   return;
+                                      // }
 
                                       context.goNamedAuth('HomePage', mounted);
                                     },
