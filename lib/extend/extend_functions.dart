@@ -9,6 +9,6 @@ void loginThingsBoard() async {
   ApiCallResponse res =
       await loginEndpointCall.call(username: username, password: password);
   String token = loginEndpointCall.token(res.jsonBody);
-  FFAppState().token = token;
-  print("token ${FFAppState().token}");
+  FFAppState().tbToken = token;
+  print("${FFAppState().tbToken}");
 }
