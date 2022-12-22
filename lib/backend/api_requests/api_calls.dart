@@ -45,6 +45,15 @@ class LoginEndpointCall {
       cache: false,
     );
   }
+
+  dynamic token(dynamic response) => getJsonField(
+        response,
+        r'''$.token''',
+      );
+  dynamic refreshToken(dynamic response) => getJsonField(
+        response,
+        r'''$.refreshToken''',
+      );
 }
 
 class GetCustomerDeviceInfosCall {
