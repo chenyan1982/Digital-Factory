@@ -290,7 +290,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '家',
     },
   },
-  // devices
+  // devicesAlt
   {
     'vibf8vqe': {
       'en': 'Your Device',
@@ -1559,7 +1559,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '',
     },
   },
-  // devicesCopy
+  // devices
   {
     'sq7whvd7': {
       'en': 'Your Device',

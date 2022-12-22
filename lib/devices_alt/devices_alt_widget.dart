@@ -1,4 +1,4 @@
-import '../backend/api_requests/api_calls.dart';
+import '../backend/backend.dart';
 import '../components/device_list_item_widget.dart';
 import '../components/main_web_nav_widget.dart';
 import '../components/message_bottom_sheet_widget.dart';
@@ -9,16 +9,21 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:provider/provider.dart';
 
-class DevicesCopyWidget extends StatefulWidget {
-  const DevicesCopyWidget({Key? key}) : super(key: key);
+class DevicesAltWidget extends StatefulWidget {
+  const DevicesAltWidget({Key? key}) : super(key: key);
 
   @override
-  _DevicesCopyWidgetState createState() => _DevicesCopyWidgetState();
+  _DevicesAltWidgetState createState() => _DevicesAltWidgetState();
 }
 
-class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
+class _DevicesAltWidgetState extends State<DevicesAltWidget> {
+  PagingController<DocumentSnapshot?, DevicesRecord>? _pagingController;
+  Query? _pagingQuery;
+  List<StreamSubscription?> _streamSubscriptions = [];
+
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -26,6 +31,12 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
     super.initState();
 
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
+  }
+
+  @override
+  void dispose() {
+    _streamSubscriptions.forEach((s) => s?.cancel());
+    super.dispose();
   }
 
   @override
@@ -55,7 +66,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                     padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'g4wgai3p' /* Notifications */,
+                        'wl92yxg8' /* Notifications */,
                       ),
                       style: FlutterFlowTheme.of(context).title2,
                     ),
@@ -64,7 +75,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                     padding: EdgeInsetsDirectional.fromSTEB(16, 4, 0, 0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'ztplktp1' /* Below are you new notification... */,
+                        '88ighwvg' /* Below are you new notification... */,
                       ),
                       style: FlutterFlowTheme.of(context).bodyText2,
                     ),
@@ -139,7 +150,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                               Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'iz6jrii7' /* Username here */,
+                                                  'dow75c37' /* Username here */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -154,7 +165,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                                   0, 4, 0, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'ksez3kno' /* okay wow, you could definitely... */,
+                                              'imvp4zoh' /* okay wow, you could definitely... */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
@@ -173,7 +184,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'r2h75wh2' /* Posted */,
+                                                    'yg0bk3bt' /* Posted */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -196,7 +207,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                               Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'tp8x4mw9' /* A few moments ago */,
+                                                  'x42j95vy' /* A few moments ago */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -275,7 +286,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                       children: [
                                         Text(
                                           FFLocalizations.of(context).getText(
-                                            'touv5jw6' /* Username here */,
+                                            'zp6iay4z' /* Username here */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
@@ -286,7 +297,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                                   0, 4, 0, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'e6j0rkt6' /* okay wow, you could definitely... */,
+                                              'ydsh35x3' /* okay wow, you could definitely... */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
@@ -305,7 +316,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'gum79urz' /* Posted */,
+                                                    'pgfbshj3' /* Posted */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -328,7 +339,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                               Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'oi5lwlww' /* A few moments ago */,
+                                                  'x3mgsj5a' /* A few moments ago */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -407,7 +418,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                       children: [
                                         Text(
                                           FFLocalizations.of(context).getText(
-                                            '1hmi171e' /* Username here */,
+                                            'qu81rf0d' /* Username here */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
@@ -418,7 +429,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                                   0, 4, 0, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'wf83js02' /* okay wow, you could definitely... */,
+                                              '6yl6afsi' /* okay wow, you could definitely... */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
@@ -437,7 +448,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'j0gqvfwq' /* Posted */,
+                                                    'ohgm7pn6' /* Posted */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -460,7 +471,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                               Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'gkchjs66' /* A few moments ago */,
+                                                  'yvgap105' /* A few moments ago */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -563,7 +574,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                             Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'sq7whvd7' /* Your Device */,
+                                                'vibf8vqe' /* Your Device */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -575,7 +586,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'uwf38tav' /* Your projects are below */,
+                                                  'wqd27t6p' /* Your projects are below */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -692,7 +703,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                                   badgeContent: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'ung48p3m' /* 1 */,
+                                                      'cthhf2m6' /* 1 */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -835,61 +846,127 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                         crossAxisAlignment:
                                             CrossAxisAlignment.center,
                                         children: [
-                                          FutureBuilder<ApiCallResponse>(
-                                            future: PicsumCall.call(),
-                                            builder: (context, snapshot) {
-                                              // Customize what your widget looks like when it's loading.
-                                              if (!snapshot.hasData) {
-                                                return Center(
-                                                  child: SizedBox(
-                                                    width: 50,
-                                                    height: 50,
-                                                    child:
-                                                        CircularProgressIndicator(
-                                                      color:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .primaryColor,
-                                                    ),
-                                                  ),
-                                                );
+                                          PagedListView<
+                                              DocumentSnapshot<Object?>?,
+                                              DevicesRecord>(
+                                            pagingController: () {
+                                              final Query<Object?> Function(
+                                                      Query<Object?>)
+                                                  queryBuilder =
+                                                  (devicesRecord) =>
+                                                      devicesRecord;
+                                              if (_pagingController != null) {
+                                                final query = queryBuilder(
+                                                    DevicesRecord.collection);
+                                                if (query != _pagingQuery) {
+                                                  // The query has changed
+                                                  _pagingQuery = query;
+                                                  _streamSubscriptions.forEach(
+                                                      (s) => s?.cancel());
+                                                  _streamSubscriptions.clear();
+                                                  _pagingController!.refresh();
+                                                }
+                                                return _pagingController!;
                                               }
-                                              final listViewPicsumResponse =
-                                                  snapshot.data!;
-                                              return Builder(
-                                                builder: (context) {
-                                                  final deviceList =
-                                                      getJsonField(
-                                                    listViewPicsumResponse
-                                                        .jsonBody,
-                                                    r'''$[*]''',
-                                                  ).toList();
-                                                  return ListView.builder(
-                                                    padding: EdgeInsets.zero,
-                                                    shrinkWrap: true,
-                                                    scrollDirection:
-                                                        Axis.vertical,
-                                                    itemCount:
-                                                        deviceList.length,
-                                                    itemBuilder: (context,
-                                                        deviceListIndex) {
-                                                      final deviceListItem =
-                                                          deviceList[
-                                                              deviceListIndex];
-                                                      return DeviceListItemWidget(
-                                                        key: UniqueKey(),
-                                                        no: getJsonField(
-                                                          deviceListItem,
-                                                          r'''$.author''',
-                                                        ).toString(),
-                                                        today: deviceListIndex,
-                                                        status: deviceListIndex,
-                                                      );
-                                                    },
+
+                                              _pagingController =
+                                                  PagingController(
+                                                      firstPageKey: null);
+                                              _pagingQuery = queryBuilder(
+                                                  DevicesRecord.collection);
+                                              _pagingController!
+                                                  .addPageRequestListener(
+                                                      (nextPageMarker) {
+                                                queryDevicesRecordPage(
+                                                  queryBuilder:
+                                                      (devicesRecord) =>
+                                                          devicesRecord,
+                                                  nextPageMarker:
+                                                      nextPageMarker,
+                                                  pageSize: 25,
+                                                  isStream: true,
+                                                ).then((page) {
+                                                  _pagingController!.appendPage(
+                                                    page.data,
+                                                    page.nextPageMarker,
                                                   );
-                                                },
-                                              );
-                                            },
+                                                  final streamSubscription =
+                                                      page.dataStream
+                                                          ?.listen((data) {
+                                                    final itemIndexes =
+                                                        _pagingController!
+                                                            .itemList!
+                                                            .asMap()
+                                                            .map((k, v) =>
+                                                                MapEntry(
+                                                                    v.reference
+                                                                        .id,
+                                                                    k));
+                                                    data.forEach((item) {
+                                                      final index = itemIndexes[
+                                                          item.reference.id];
+                                                      final items =
+                                                          _pagingController!
+                                                              .itemList!;
+                                                      if (index != null) {
+                                                        items.replaceRange(
+                                                            index,
+                                                            index + 1,
+                                                            [item]);
+                                                        _pagingController!
+                                                            .itemList = {
+                                                          for (var item
+                                                              in items)
+                                                            item.reference: item
+                                                        }.values.toList();
+                                                      }
+                                                    });
+                                                    setState(() {});
+                                                  });
+                                                  _streamSubscriptions
+                                                      .add(streamSubscription);
+                                                });
+                                              });
+                                              return _pagingController!;
+                                            }(),
+                                            padding: EdgeInsets.zero,
+                                            shrinkWrap: true,
+                                            scrollDirection: Axis.vertical,
+                                            builderDelegate:
+                                                PagedChildBuilderDelegate<
+                                                    DevicesRecord>(
+                                              // Customize what your widget looks like when it's loading the first page.
+                                              firstPageProgressIndicatorBuilder:
+                                                  (_) => Center(
+                                                child: SizedBox(
+                                                  width: 50,
+                                                  height: 50,
+                                                  child:
+                                                      CircularProgressIndicator(
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .primaryColor,
+                                                  ),
+                                                ),
+                                              ),
+
+                                              itemBuilder:
+                                                  (context, _, listViewIndex) {
+                                                final listViewDevicesRecord =
+                                                    _pagingController!
+                                                            .itemList![
+                                                        listViewIndex];
+                                                return DeviceListItemWidget(
+                                                  key: UniqueKey(),
+                                                  no: listViewDevicesRecord
+                                                      .name,
+                                                  today: listViewDevicesRecord
+                                                      .todayOutput,
+                                                  status: listViewDevicesRecord
+                                                      .status,
+                                                );
+                                              },
+                                            ),
                                           ),
                                         ],
                                       ),
