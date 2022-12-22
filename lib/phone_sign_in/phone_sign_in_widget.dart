@@ -263,7 +263,11 @@ class _PhoneSignInWidgetState extends State<PhoneSignInWidget>
                               context: context,
                               phoneNumber: phoneNumberVal,
                               onCodeSent: () async {
-                                context.goNamedAuth('phoneVerify', mounted);
+                                context.goNamedAuth(
+                                  'phoneVerify',
+                                  mounted,
+                                  ignoreRedirect: true,
+                                );
                               },
                             );
                           },

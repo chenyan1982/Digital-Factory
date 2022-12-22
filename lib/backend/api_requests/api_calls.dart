@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:typed_data';
 
 import '../../flutter_flow/flutter_flow_util.dart';
 
@@ -37,6 +38,7 @@ class LoginEndpointCall {
       body: body,
       bodyType: BodyType.JSON,
       returnBody: true,
+      decodeUtf8: false,
       cache: false,
     );
   }
@@ -70,6 +72,7 @@ class GetCustomerDeviceInfosCall {
         'page': 0,
       },
       returnBody: true,
+      decodeUtf8: false,
       cache: false,
     );
   }
@@ -86,6 +89,7 @@ class PicsumCall {
       headers: {},
       params: {},
       returnBody: true,
+      decodeUtf8: false,
       cache: false,
     );
   }

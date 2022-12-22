@@ -877,8 +877,7 @@ class _DevicesCopyWidgetState extends State<DevicesCopyWidget> {
                                                           deviceList[
                                                               deviceListIndex];
                                                       return DeviceListItemWidget(
-                                                        key: Key(
-                                                            'deviceListItem_${deviceListIndex}'),
+                                                        key: UniqueKey(),
                                                         no: getJsonField(
                                                           deviceListItem,
                                                           r'''$.author''',

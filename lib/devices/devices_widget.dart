@@ -957,8 +957,7 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                                                             .itemList![
                                                         listViewIndex];
                                                 return DeviceListItemWidget(
-                                                  key: Key(
-                                                      'deviceListItem_${listViewIndex}'),
+                                                  key: UniqueKey(),
                                                   no: listViewDevicesRecord
                                                       .name,
                                                   today: listViewDevicesRecord
