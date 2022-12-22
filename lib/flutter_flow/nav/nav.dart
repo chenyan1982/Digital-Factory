@@ -83,9 +83,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => HomePageWidget(),
             ),
             FFRoute(
-              name: 'devices',
-              path: 'devices',
-              builder: (context, params) => DevicesWidget(),
+              name: 'devicesAlt',
+              path: 'devicesAlt',
+              builder: (context, params) => DevicesAltWidget(),
             ),
             FFRoute(
               name: 'Language',
@@ -133,9 +133,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => PhoneVerifyWidget(),
             ),
             FFRoute(
-              name: 'devicesCopy',
-              path: 'devicesCopy',
-              builder: (context, params) => DevicesCopyWidget(),
+              name: 'devices',
+              path: 'devices',
+              builder: (context, params) => DevicesWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),

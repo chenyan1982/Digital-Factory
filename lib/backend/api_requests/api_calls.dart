@@ -59,6 +59,7 @@ class LoginEndpointCall {
 class GetCustomerDeviceInfosCall {
   Future<ApiCallResponse> call({
     String? customerId = 'fd6650b0-e553-11ec-bef4-c38ec7217ebf',
+    String? token = '',
   }) {
     return ApiManager.instance.makeApiCall(
       callName: 'getCustomerDeviceInfos',
@@ -67,8 +68,7 @@ class GetCustomerDeviceInfosCall {
       callType: ApiCallType.GET,
       headers: {
         ...ThingsBoardGroup.headers,
-        'x-authorization':
-            'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJib2luZ2FkbUBpbmxheWxpbmsuY29tIiwic2NvcGVzIjpbIkNVU1RPTUVSX1VTRVIiXSwidXNlcklkIjoiZmUzNmU0ZTAtNThjNy0xMWVkLWI1M2UtMTc3MmE4NzMwN2I5IiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjNjZjViN2EwLTY4ODgtMTFlYy1iMTEwLTQ3NjEwNzA0NTg5NCIsImN1c3RvbWVySWQiOiJmZDY2NTBiMC1lNTUzLTExZWMtYmVmNC1jMzhlYzcyMTdlYmYiLCJpc3MiOiJ0aGluZ3Nib2FyZC5pbyIsImlhdCI6MTY3MTQ0MDU4NSwiZXhwIjoxNjcxNDQ5NTg1fQ.mtXUSdyHYcS-zXjzW77Bquthdlgk2TkTSqjRFamdnpFfdNniZYDa1zUNtN9Q5tAyiZabuzAUSAt3eKurvPlPHg',
+        'x-authorization': 'Bearer ${token}',
       },
       params: {
         'pageSize': 1000,
