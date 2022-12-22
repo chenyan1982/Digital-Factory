@@ -872,7 +872,7 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                                                       getJsonField(
                                                     listViewGetCustomerDeviceInfosResponse
                                                         .jsonBody,
-                                                    r'''$[*]''',
+                                                    r'''$.data[*]''',
                                                   ).toList();
                                                   return RefreshIndicator(
                                                     onRefresh: () async {
@@ -897,7 +897,7 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                                                           key: UniqueKey(),
                                                           no: getJsonField(
                                                             deviceListItem,
-                                                            r'''$.author''',
+                                                            r'''$.name''',
                                                           ).toString(),
                                                           today:
                                                               deviceListIndex,
