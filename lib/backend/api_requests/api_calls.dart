@@ -25,14 +25,17 @@ class LoginEndpointCall {
     String? password = '',
   }) {
     final body = '''
-{}''';
+{
+  "username": "${username}",
+  "password": "${password}"
+}''';
     return ApiManager.instance.makeApiCall(
       callName: 'loginEndpoint',
       apiUrl: '${ThingsBoardGroup.baseUrl}/api/auth/login',
       callType: ApiCallType.POST,
       headers: {
         ...ThingsBoardGroup.headers,
-        'ContentType': 'application/json',
+        'Content-Type': 'application/json',
       },
       params: {},
       body: body,
@@ -42,15 +45,6 @@ class LoginEndpointCall {
       cache: false,
     );
   }
-
-  dynamic token1(dynamic response) => getJsonField(
-        response,
-        r'''$.token''',
-      );
-  dynamic refreshToken1(dynamic response) => getJsonField(
-        response,
-        r'''$.refreshToken''',
-      );
 }
 
 class GetCustomerDeviceInfosCall {
