@@ -13,11 +13,11 @@ abstract class SupabaseDataRow {
   T? getField<T>(String fieldName, [T? defaultValue]) =>
       _supaDeserialize<T>(data[fieldName]) ?? defaultValue;
   void setField<T>(String fieldName, T? value) =>
-      data[fieldName] = supaSerialize(value);
+      data[fieldName] = supaSerialize<T>(value);
   List<T> getListField<T>(String fieldName) =>
       _supaDeserializeList<T>(data[fieldName]) ?? [];
   void setListField<T>(String fieldName, List<T>? value) =>
-      data[fieldName] = supaSerialize(value);
+      data[fieldName] = supaSerializeList<T>(value);
 
   @override
   String toString() => '''

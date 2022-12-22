@@ -19,7 +19,6 @@ class SignUpWidget extends StatefulWidget {
 class _SignUpWidgetState extends State<SignUpWidget> {
   TextEditingController? emailAddressController;
   TextEditingController? passwordController;
-
   late bool passwordVisibility;
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
