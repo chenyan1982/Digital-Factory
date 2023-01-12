@@ -9,89 +9,67 @@ export 'api_manager.dart' show ApiCallResponse;
 
 const _kPrivateApiFunctionName = 'ffPrivateApiCall';
 
-/// Start thingsBoard Group Code
+/// Start iot Group Code
 
-class ThingsBoardGroup {
-  static String baseUrl = 'http://180.167.54.158:10020';
-  static Map<String, String> headers = {};
-  static LoginEndpointCall loginEndpointCall = LoginEndpointCall();
-  static GetCustomerDeviceInfosCall getCustomerDeviceInfosCall =
-      GetCustomerDeviceInfosCall();
+class IotGroup {
+  static String baseUrl = 'https://ljecyjphlwhpxruhjcxa.functions.supabase.co';
+  static Map<String, String> headers = {
+    'Authorization':
+        'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxqZWN5anBobHdocHhydWhqY3hhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzE3NjQ4OTMsImV4cCI6MTk4NzM0MDg5M30.DbYvXLjf2QVdBf_5_uNX_khOHoh8NAfQT5uOA-pqWjA',
+  };
+  static MultiDeviceBriefsCall multiDeviceBriefsCall = MultiDeviceBriefsCall();
 }
 
-class LoginEndpointCall {
+class MultiDeviceBriefsCall {
   Future<ApiCallResponse> call({
-    String? username = '',
-    String? password = '',
+    int? pageSize = 20,
+    int? page = 0,
   }) {
     final body = '''
 {
-  "username": "${username}",
-  "password": "${password}"
+  "pageSize": ${pageSize},
+  "page": ${page}
 }''';
     return ApiManager.instance.makeApiCall(
-      callName: 'loginEndpoint',
-      apiUrl: '${ThingsBoardGroup.baseUrl}/api/auth/login',
+      callName: 'multiDeviceBriefs',
+      apiUrl: '${IotGroup.baseUrl}/multiDeviceBriefs',
       callType: ApiCallType.POST,
-      headers: {
-        ...ThingsBoardGroup.headers,
-        'Content-Type': 'application/json',
-      },
+      headers: {...IotGroup.headers},
       params: {},
       body: body,
       bodyType: BodyType.JSON,
       returnBody: true,
+      encodeBodyUtf8: false,
       decodeUtf8: false,
       cache: false,
     );
   }
-
-  dynamic token(dynamic response) => getJsonField(
-        response,
-        r'''$.token''',
-      );
-  dynamic refreshToken(dynamic response) => getJsonField(
-        response,
-        r'''$.refreshToken''',
-      );
 }
 
-class GetCustomerDeviceInfosCall {
-  Future<ApiCallResponse> call({
-    String? customerId = 'fd6650b0-e553-11ec-bef4-c38ec7217ebf',
-    String? token = '',
+class SingleDeviceOutputAggregationCall {
+  static Future<ApiCallResponse> call({
+    String? deviceId = '',
+    int? startTs,
+    int? endTs,
+    int? interval,
   }) {
+    final body = '''
+{
+  "deviceId": "${deviceId}",
+  "startTs": ${startTs},
+  "endTs": ${endTs},
+  "interval": ${interval}
+}''';
     return ApiManager.instance.makeApiCall(
-      callName: 'getCustomerDeviceInfos',
-      apiUrl:
-          '${ThingsBoardGroup.baseUrl}/api/customer/${customerId}/deviceInfos',
-      callType: ApiCallType.GET,
-      headers: {
-        ...ThingsBoardGroup.headers,
-        'x-authorization': 'Bearer ${token}',
-      },
-      params: {
-        'pageSize': 1000,
-        'page': 0,
-      },
-      returnBody: true,
-      decodeUtf8: false,
-      cache: false,
-    );
-  }
-}
-
-/// End thingsBoard Group Code
-
-class PicsumCall {
-  static Future<ApiCallResponse> call() {
-    return ApiManager.instance.makeApiCall(
-      callName: 'picsum',
-      apiUrl: 'https://picsum.photos/v2/list',
-      callType: ApiCallType.GET,
-      headers: {},
+      callName: 'singleDeviceOutputAggregation',
+      apiUrl: '${IotGroup.baseUrl}/singleDeviceOutputAggregation',
+      callType: ApiCallType.POST,
+      headers: {...IotGroup.headers},
       params: {},
+      body: body,
+      bodyType: BodyType.JSON,
       returnBody: true,
+      encodeBodyUtf8: false,
       decodeUtf8: false,
       cache: false,
     );

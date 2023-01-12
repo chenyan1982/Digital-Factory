@@ -20,6 +20,11 @@ class FFAppState extends ChangeNotifier {
     _tbToken = prefs.getString('ff_tbToken') ?? _tbToken;
   }
 
+  void update(VoidCallback callback) {
+    callback();
+    notifyListeners();
+  }
+
   late SharedPreferences prefs;
 
   dynamic _avgEfficency = jsonDecode('{\"value\":0,\"trendUp\":false}');
@@ -46,6 +51,30 @@ class FFAppState extends ChangeNotifier {
 
     _tbToken = _value;
     prefs.setString('ff_tbToken', _value);
+  }
+
+  double _utilRate = 0.0;
+  double get utilRate => _utilRate;
+  set utilRate(double _value) {
+    notifyListeners();
+
+    _utilRate = _value;
+  }
+
+  int _speed = 0;
+  int get speed => _speed;
+  set speed(int _value) {
+    notifyListeners();
+
+    _speed = _value;
+  }
+
+  int _status = 0;
+  int get status => _status;
+  set status(int _value) {
+    notifyListeners();
+
+    _status = _value;
   }
 }
 

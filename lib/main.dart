@@ -16,8 +16,6 @@ import 'index.dart';
 
 import 'backend/stripe/payment_manager.dart';
 
-import 'extend/extend_functions.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -57,7 +55,6 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    loginThingsBoard();
     _appStateNotifier = AppStateNotifier();
     _router = createRouter(_appStateNotifier);
     userStream = digitalFactoryFirebaseUserStream()

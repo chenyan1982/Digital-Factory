@@ -11,3 +11,4 @@ export 'forgot_password/forgot_password_widget.dart' show ForgotPasswordWidget;
 export 'phone_sign_in/phone_sign_in_widget.dart' show PhoneSignInWidget;
 export 'phone_verify/phone_verify_widget.dart' show PhoneVerifyWidget;
 export 'devices/devices_widget.dart' show DevicesWidget;
+export 'device_info/device_info_widget.dart' show DeviceInfoWidget;

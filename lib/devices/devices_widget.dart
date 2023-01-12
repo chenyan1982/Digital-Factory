@@ -10,6 +10,7 @@ import 'dart:async';
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:provider/provider.dart';
 
 class DevicesWidget extends StatefulWidget {
@@ -20,7 +21,8 @@ class DevicesWidget extends StatefulWidget {
 }
 
 class _DevicesWidgetState extends State<DevicesWidget> {
-  Completer<ApiCallResponse>? _apiRequestCompleter;
+  PagingController<ApiPagingParams, dynamic>? _pagingController;
+  final _unfocusNode = FocusNode();
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -28,6 +30,12 @@ class _DevicesWidgetState extends State<DevicesWidget> {
     super.initState();
 
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
+  }
+
+  @override
+  void dispose() {
+    _unfocusNode.dispose();
+    super.dispose();
   }
 
   @override
@@ -504,9 +512,9 @@ class _DevicesWidgetState extends State<DevicesWidget> {
         ),
       ),
       body: GestureDetector(
-        onTap: () => FocusScope.of(context).unfocus(),
+        onTap: () => FocusScope.of(context).requestFocus(_unfocusNode),
         child: Row(
-          mainAxisSize: MainAxisSize.max,
+          mainAxisSize: MainAxisSize.min,
           children: [
             if (responsiveVisibility(
               context: context,
@@ -523,11 +531,11 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Expanded(
-                    child: SingleChildScrollView(
-                      child: Column(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Padding(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Expanded(
+                          child: Padding(
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(16, 24, 16, 0),
                             child: Column(
@@ -553,39 +561,34 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Expanded(
-                                      flex: 5,
-                                      child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0, 0, 12, 0),
-                                        child: Column(
-                                          mainAxisSize: MainAxisSize.max,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
-                                            Text(
+                                      flex: 3,
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            FFLocalizations.of(context).getText(
+                                              'sq7whvd7' /* Your Device */,
+                                            ),
+                                            style: FlutterFlowTheme.of(context)
+                                                .title1,
+                                          ),
+                                          Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0, 4, 0, 0),
+                                            child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'sq7whvd7' /* Your Device */,
+                                                'uwf38tav' /* Your projects are below */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .title1,
+                                                      .bodyText2,
                                             ),
-                                            Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(0, 4, 0, 0),
-                                              child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'uwf38tav' /* Your projects are below */,
-                                                ),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyText2,
-                                              ),
-                                            ),
-                                          ],
-                                        ),
+                                          ),
+                                        ],
                                       ),
                                     ),
                                     Expanded(
@@ -595,10 +598,11 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                                         mainAxisAlignment:
                                             MainAxisAlignment.end,
                                         children: [
-                                          if (responsiveVisibility(
-                                            context: context,
-                                            phone: false,
-                                          ))
+                                          if (false &&
+                                              responsiveVisibility(
+                                                context: context,
+                                                phone: false,
+                                              ))
                                             Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 0, 12, 0),
@@ -666,99 +670,92 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                                                 ),
                                               ),
                                             ),
-                                          if (responsiveVisibility(
-                                            context: context,
-                                            phone: false,
-                                          ))
-                                            Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(0, 0, 12, 0),
-                                              child: Container(
-                                                width: 50,
-                                                height: 50,
-                                                decoration: BoxDecoration(
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryBackground,
-                                                  boxShadow: [
-                                                    BoxShadow(
-                                                      blurRadius: 4,
-                                                      color: Color(0x33000000),
-                                                      offset: Offset(0, 2),
-                                                    )
-                                                  ],
-                                                  borderRadius:
-                                                      BorderRadius.circular(16),
-                                                ),
-                                                child: Badge(
-                                                  badgeContent: Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'ung48p3m' /* 1 */,
-                                                    ),
-                                                    style: FlutterFlowTheme.of(
-                                                            context)
-                                                        .bodyText1
-                                                        .override(
-                                                          fontFamily:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyText1Family,
-                                                          color: Colors.white,
-                                                          useGoogleFonts: GoogleFonts
-                                                                  .asMap()
-                                                              .containsKey(
-                                                                  FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyText1Family),
-                                                        ),
-                                                  ),
-                                                  showBadge: true,
-                                                  shape: BadgeShape.circle,
-                                                  badgeColor:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .primaryColor,
-                                                  elevation: 4,
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(8, 8, 8, 8),
-                                                  position:
-                                                      BadgePosition.topEnd(),
-                                                  animationType:
-                                                      BadgeAnimationType.scale,
-                                                  toAnimate: true,
-                                                  child: FlutterFlowIconButton(
-                                                    borderColor:
-                                                        FlutterFlowTheme.of(
-                                                                context)
-                                                            .lineColor,
-                                                    borderRadius: 12,
-                                                    borderWidth: 1,
-                                                    buttonSize: 50,
-                                                    fillColor: FlutterFlowTheme
-                                                            .of(context)
-                                                        .secondaryBackground,
-                                                    icon: Icon(
-                                                      Icons.notifications_none,
-                                                      color:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .secondaryText,
-                                                      size: 24,
-                                                    ),
-                                                    onPressed: () async {
-                                                      scaffoldKey.currentState!
-                                                          .openEndDrawer();
-                                                    },
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
                                           Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    0, 0, 4, 0),
+                                                    0, 0, 12, 0),
                                             child: Container(
+                                              width: 50,
+                                              height: 50,
+                                              decoration: BoxDecoration(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryBackground,
+                                                boxShadow: [
+                                                  BoxShadow(
+                                                    blurRadius: 4,
+                                                    color: Color(0x33000000),
+                                                    offset: Offset(0, 2),
+                                                  )
+                                                ],
+                                                borderRadius:
+                                                    BorderRadius.circular(16),
+                                              ),
+                                              child: Badge(
+                                                badgeContent: Text(
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'ung48p3m' /* 1 */,
+                                                  ),
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .bodyText1Family,
+                                                        color: Colors.white,
+                                                        useGoogleFonts: GoogleFonts
+                                                                .asMap()
+                                                            .containsKey(
+                                                                FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .bodyText1Family),
+                                                      ),
+                                                ),
+                                                showBadge: true,
+                                                shape: BadgeShape.circle,
+                                                badgeColor:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryColor,
+                                                elevation: 4,
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(8, 8, 8, 8),
+                                                position:
+                                                    BadgePosition.topEnd(),
+                                                animationType:
+                                                    BadgeAnimationType.scale,
+                                                toAnimate: true,
+                                                child: FlutterFlowIconButton(
+                                                  borderColor:
+                                                      FlutterFlowTheme.of(
+                                                              context)
+                                                          .lineColor,
+                                                  borderRadius: 12,
+                                                  borderWidth: 1,
+                                                  buttonSize: 50,
+                                                  fillColor:
+                                                      FlutterFlowTheme.of(
+                                                              context)
+                                                          .secondaryBackground,
+                                                  icon: Icon(
+                                                    Icons.notifications_none,
+                                                    color: FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                    size: 24,
+                                                  ),
+                                                  onPressed: () async {
+                                                    scaffoldKey.currentState!
+                                                        .openEndDrawer();
+                                                  },
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                          if (false)
+                                            Container(
                                               width: 50,
                                               height: 50,
                                               decoration: BoxDecoration(
@@ -786,7 +783,6 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                                                 ),
                                               ),
                                             ),
-                                          ),
                                         ],
                                       ),
                                     ),
@@ -814,104 +810,171 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                                     color:
                                         FlutterFlowTheme.of(context).lineColor,
                                   ),
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0, 12, 0, 0),
-                                  child: Container(
-                                    width: MediaQuery.of(context).size.width,
-                                    decoration: BoxDecoration(
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryBackground,
-                                      borderRadius: BorderRadius.circular(8),
-                                      border: Border.all(
+                                Expanded(
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0, 12, 0, 0),
+                                    child: Container(
+                                      width: double.infinity,
+                                      height: double.infinity,
+                                      decoration: BoxDecoration(
                                         color: FlutterFlowTheme.of(context)
-                                            .lineColor,
-                                        width: 1,
+                                            .secondaryBackground,
+                                        borderRadius: BorderRadius.circular(8),
+                                        border: Border.all(
+                                          color: FlutterFlowTheme.of(context)
+                                              .lineColor,
+                                          width: 1,
+                                        ),
                                       ),
-                                    ),
-                                    child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 0, 0, 12),
-                                      child: Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          FutureBuilder<ApiCallResponse>(
-                                            future: (_apiRequestCompleter ??=
-                                                    Completer<ApiCallResponse>()
-                                                      ..complete(ThingsBoardGroup
-                                                          .getCustomerDeviceInfosCall
-                                                          .call(
-                                                        token: FFAppState()
-                                                            .tbToken,
-                                                      )))
-                                                .future,
-                                            builder: (context, snapshot) {
-                                              // Customize what your widget looks like when it's loading.
-                                              if (!snapshot.hasData) {
-                                                return Center(
-                                                  child: SizedBox(
-                                                    width: 50,
-                                                    height: 50,
-                                                    child:
-                                                        CircularProgressIndicator(
-                                                      color:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .primaryColor,
-                                                    ),
-                                                  ),
+                                      child: RefreshIndicator(
+                                        onRefresh: () async {
+                                          setState(() =>
+                                              _pagingController?.refresh());
+                                          await waitForOnePage();
+                                        },
+                                        child: PagedListView<ApiPagingParams,
+                                            dynamic>(
+                                          pagingController: () {
+                                            if (_pagingController != null) {
+                                              return _pagingController!;
+                                            }
+
+                                            _pagingController =
+                                                PagingController(
+                                              firstPageKey: ApiPagingParams(
+                                                nextPageNumber: 0,
+                                                numItems: 0,
+                                                lastResponse: null,
+                                              ),
+                                            );
+                                            _pagingController!
+                                                .addPageRequestListener(
+                                                    (nextPageMarker) {
+                                              IotGroup.multiDeviceBriefsCall
+                                                  .call(
+                                                pageSize: 20,
+                                                page: nextPageMarker
+                                                    .nextPageNumber,
+                                              )
+                                                  .then(
+                                                      (listViewMultiDeviceBriefsResponse) {
+                                                final pageItemsData =
+                                                    getJsonField(
+                                                  listViewMultiDeviceBriefsResponse
+                                                      .jsonBody,
+                                                  r'''$.data[*]''',
                                                 );
-                                              }
-                                              final listViewGetCustomerDeviceInfosResponse =
-                                                  snapshot.data!;
-                                              return Builder(
-                                                builder: (context) {
-                                                  final deviceList =
-                                                      getJsonField(
-                                                    listViewGetCustomerDeviceInfosResponse
-                                                        .jsonBody,
-                                                    r'''$.data[*]''',
-                                                  ).toList();
-                                                  return RefreshIndicator(
-                                                    onRefresh: () async {
-                                                      setState(() =>
-                                                          _apiRequestCompleter =
-                                                              null);
-                                                      await waitForApiRequestCompleter();
-                                                    },
-                                                    child: ListView.builder(
-                                                      padding: EdgeInsets.zero,
-                                                      shrinkWrap: true,
-                                                      scrollDirection:
-                                                          Axis.vertical,
-                                                      itemCount:
-                                                          deviceList.length,
-                                                      itemBuilder: (context,
-                                                          deviceListIndex) {
-                                                        final deviceListItem =
-                                                            deviceList[
-                                                                deviceListIndex];
-                                                        return DeviceListItemWidget(
-                                                          key: UniqueKey(),
-                                                          no: getJsonField(
-                                                            deviceListItem,
-                                                            r'''$.name''',
-                                                          ).toString(),
-                                                          today:
-                                                              deviceListIndex,
-                                                          status:
-                                                              deviceListIndex,
-                                                        );
-                                                      },
-                                                    ),
+                                                final pageItems =
+                                                    pageItemsData == null
+                                                        ? []
+                                                        : pageItemsData.toList()
+                                                            as List;
+                                                final newNumItems =
+                                                    nextPageMarker.numItems +
+                                                        pageItems.length;
+                                                _pagingController!.appendPage(
+                                                  pageItems,
+                                                  (pageItems.length > 0)
+                                                      ? ApiPagingParams(
+                                                          nextPageNumber:
+                                                              nextPageMarker
+                                                                      .nextPageNumber +
+                                                                  1,
+                                                          numItems: newNumItems,
+                                                          lastResponse:
+                                                              listViewMultiDeviceBriefsResponse,
+                                                        )
+                                                      : null,
+                                                );
+                                              });
+                                            });
+                                            return _pagingController!;
+                                          }(),
+                                          padding: EdgeInsets.zero,
+                                          shrinkWrap: true,
+                                          scrollDirection: Axis.vertical,
+                                          builderDelegate:
+                                              PagedChildBuilderDelegate<
+                                                  dynamic>(
+                                            // Customize what your widget looks like when it's loading the first page.
+                                            firstPageProgressIndicatorBuilder:
+                                                (_) => Center(
+                                              child: SizedBox(
+                                                width: 50,
+                                                height: 50,
+                                                child:
+                                                    CircularProgressIndicator(
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primaryColor,
+                                                ),
+                                              ),
+                                            ),
+
+                                            itemBuilder:
+                                                (context, _, deviceListIndex) {
+                                              final deviceListItem =
+                                                  _pagingController!.itemList![
+                                                      deviceListIndex];
+                                              return InkWell(
+                                                onTap: () async {
+                                                  FFAppState().update(() {
+                                                    FFAppState().utilRate =
+                                                        0.7528;
+                                                    FFAppState().speed = 35;
+                                                    FFAppState().status = 1;
+                                                  });
+
+                                                  context.pushNamed(
+                                                    'deviceInfo',
+                                                    queryParams: {
+                                                      'deviceName':
+                                                          serializeParam(
+                                                        getJsonField(
+                                                          deviceListItem,
+                                                          r'''$.name''',
+                                                        ).toString(),
+                                                        ParamType.String,
+                                                      ),
+                                                      'deviceId':
+                                                          serializeParam(
+                                                        getJsonField(
+                                                          deviceListItem,
+                                                          r'''$.id''',
+                                                        ).toString(),
+                                                        ParamType.String,
+                                                      ),
+                                                    }.withoutNulls,
                                                   );
                                                 },
+                                                child: DeviceListItemWidget(
+                                                  key: UniqueKey(),
+                                                  no: getJsonField(
+                                                    deviceListItem,
+                                                    r'''$.name''',
+                                                  ).toString(),
+                                                  today: getJsonField(
+                                                    deviceListItem,
+                                                    r'''$.todayOutput''',
+                                                  ),
+                                                  status: getJsonField(
+                                                    deviceListItem,
+                                                    r'''$.status''',
+                                                  ),
+                                                  id: getJsonField(
+                                                    deviceListItem,
+                                                    r'''$.id''',
+                                                  ).toString(),
+                                                  total: getJsonField(
+                                                    deviceListItem,
+                                                    r'''$.totalOutput''',
+                                                  ),
+                                                ),
                                               );
                                             },
                                           ),
-                                        ],
+                                        ),
                                       ),
                                     ),
                                   ),
@@ -919,8 +982,8 @@ class _DevicesWidgetState extends State<DevicesWidget> {
                               ],
                             ),
                           ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                   ),
                   MobileNavWidget(
@@ -946,7 +1009,7 @@ class _DevicesWidgetState extends State<DevicesWidget> {
     );
   }
 
-  Future waitForApiRequestCompleter({
+  Future waitForOnePage({
     double minWait = 0,
     double maxWait = double.infinity,
   }) async {
@@ -954,7 +1017,8 @@ class _DevicesWidgetState extends State<DevicesWidget> {
     while (true) {
       await Future.delayed(Duration(milliseconds: 50));
       final timeElapsed = stopwatch.elapsedMilliseconds;
-      final requestComplete = _apiRequestCompleter?.isCompleted ?? false;
+      final requestComplete =
+          (_pagingController?.nextPageKey?.nextPageNumber ?? 0) > 0;
       if (timeElapsed > maxWait || (requestComplete && timeElapsed > minWait)) {
         break;
       }

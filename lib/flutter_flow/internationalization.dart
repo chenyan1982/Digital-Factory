@@ -2141,4 +2141,56 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'zh_Hans': '',
     },
   },
+  // deviceInfo
+  {
+    'gckhg94l': {
+      'en': 'Device Info',
+      'de': 'Geräteinformationen',
+      'fr': 'Info appareil',
+      'ja': '機器情報',
+      'zh_Hans': '设备信息',
+    },
+    'h6ud908v': {
+      'en': 'Utilization rate',
+      'de': 'Nutzungsrate',
+      'fr': "Taux d'utilisation",
+      'ja': '稼働率',
+      'zh_Hans': '稼动率',
+    },
+    'tkjsv50t': {
+      'en': 'Speed',
+      'de': 'Geschwindigkeit',
+      'fr': 'Vitesse',
+      'ja': 'スピード',
+      'zh_Hans': '速度',
+    },
+    '0wi8tqjp': {
+      'en': 'Status',
+      'de': 'Status',
+      'fr': 'Statut',
+      'ja': '状態',
+      'zh_Hans': '状态',
+    },
+    'y9gfrnf7': {
+      'en': 'DigitalFatory',
+      'de': 'DigitalFatory',
+      'fr': 'DigitalFatory',
+      'ja': 'DigitalFatory',
+      'zh_Hans': 'DigitalFatory',
+    },
+    'u13gq2ru': {
+      'en': '4:30pm',
+      'de': '4:30pm',
+      'fr': '4:30pm',
+      'ja': '4:30pm',
+      'zh_Hans': '4:30pm',
+    },
+    '2rrlmpwm': {
+      'en': 'device occuring problem.',
+      'de': 'Geräteproblem.',
+      'fr': "problème d'apparition de l'appareil.",
+      'ja': 'デバイスに発生する問題。',
+      'zh_Hans': '设备出现问题。',
+    }
+  },
 ].reduce((a, b) => a..addAll(b));

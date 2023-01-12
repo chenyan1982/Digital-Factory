@@ -136,6 +136,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'devices',
               path: 'devices',
               builder: (context, params) => DevicesWidget(),
+            ),
+            FFRoute(
+              name: 'deviceInfo',
+              path: 'deviceInfo',
+              builder: (context, params) => DeviceInfoWidget(
+                  deviceName: params.getParam('deviceName', ParamType.String),
+                  deviceId: params.getParam('deviceId', ParamType.String)),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),

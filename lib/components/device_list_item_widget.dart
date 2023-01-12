@@ -10,11 +10,15 @@ class DeviceListItemWidget extends StatefulWidget {
     this.no,
     this.today,
     this.status,
+    this.id,
+    this.total,
   }) : super(key: key);
 
   final String? no;
   final int? today;
   final int? status;
+  final String? id;
+  final int? total;
 
   @override
   _DeviceListItemWidgetState createState() => _DeviceListItemWidgetState();
