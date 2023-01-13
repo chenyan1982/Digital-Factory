@@ -8,8 +8,8 @@
         <sparkle:informationalUpdate />
         <description>Fix a few bugs。</description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <link>https://github.com/chenyan1982/Digital-Factory/releases</link>
-        <enclosure url="https://s3.tebi.io/backet20221212/digital-factory.apk"
+        <!-- <link>https://github.com/chenyan1982/Digital-Factory/releases</link> -->
+        <enclosure url="https://www.4sync.com/web/directDownload/xh6Xq3J2/W-dDGikd.db6a1a01dcba0f8bd3fff2efae09b570"
             type="application/octet-stream" />
     </item>
   </channel>
