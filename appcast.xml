@@ -21,8 +21,8 @@
         <title>Version 0.0.2</title>
         <sparkle:version>0.0.2</sparkle:version>
         <sparkle:informationalUpdate />
-        <description>
-        <![CDATA[ <ul> <li>Fix some bug.</li> </ul> ]]>
+        <description xml:lang="en">
+        Fix some bug.
         </description>
         <description xml:lang="cn">
         修改一些Bug1。
