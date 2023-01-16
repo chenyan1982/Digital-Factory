@@ -4,7 +4,7 @@
     <title>Digital Factory App - Appcast</title>
     <item>
         <title>Version 0.0.1</title>
-        <sparkle:version>0.0.1</sparkle:version>
+        <sparkle:version>2.0</sparkle:version>
         <sparkle:informationalUpdate />
         <description>
         <![CDATA[ <ul> <li>Supply Home,Device,Profile Nav Pages.</li> <li>Supply Device info Page for live monitoring Device Single device output.</li> </ul> ]]>
@@ -13,12 +13,12 @@
         <![CDATA[ <ul> <li>提供首页、设备、我的 导航页。</li> <li>提供设备信息页，实时监控单个设备产量。</li> </ul> ]]>
         </description>               
         <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
-        <enclosure url="https://www.4sync.com/web/directDownload/RBiAgTnu/W-dDGikd.30d75c224b2d59d1606e916c797e8761"
+        <enclosure url="https://www.4sync.com/web/directDownload/RBiAgTnu/W-dDGikd.30d75c224b2d59d1606e916c797e8761" sparkle:os="android"
             type="application/octet-stream" />
     </item>
     <item>
         <title>Version 0.0.2</title>
-        <sparkle:version>0.0.2</sparkle:version>
+        <sparkle:version>2.0</sparkle:version>
         <sparkle:informationalUpdate />
         <description>
         <![CDATA[ <ul> <li>Fix some bug.</li> </ul> ]]>
@@ -27,7 +27,7 @@
         <![CDATA[ <ul> <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li> <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li> <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li> </ul> ]]>
         </description>               
         <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
-        <enclosure url="https://www.4sync.com/web/directDownload/MaYKGBG6/W-dDGikd.835aa571be740bcef89b66a0ba7f5fab"
+        <enclosure url="https://www.4sync.com/web/directDownload/MaYKGBG6/W-dDGikd.835aa571be740bcef89b66a0ba7f5fab" sparkle:os="android"
             type="application/octet-stream" />
     </item>
   </channel>
