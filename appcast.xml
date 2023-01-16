@@ -22,13 +22,13 @@
         <title>Version 0.0.2</title>
         <sparkle:version>0.0.2</sparkle:version>
         <sparkle:informationalUpdate />
-        <description xml:lang="en">
-        Fix some bug.
-        </description>
         <description xml:lang="zh">
         修改一些Bug1。
         修改一些Bug2。
-        </description>               
+        </description>     
+        <description xml:lang="en">
+        Fix some bug.
+        </description>          
         <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
         <enclosure url="https://www.4sync.com/web/directDownload/MaYKGBG6/W-dDGikd.835aa571be740bcef89b66a0ba7f5fab" sparkle:os="android"
             type="application/octet-stream" />
