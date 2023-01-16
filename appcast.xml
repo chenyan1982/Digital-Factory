@@ -6,10 +6,11 @@
         <title>Version 0.0.1</title>
         <sparkle:version>0.0.1</sparkle:version>
         <sparkle:informationalUpdate />
-        <description>
-        <![CDATA[ <ul> <li>Supply Home,Device,Profile Nav Pages.</li> <li>Supply Device info Page for live monitoring Device Single device output.</li> </ul> ]]>
+        <description xml:lang="en">
+        Supply Home,Device,Profile Nav Pages.
+        Supply Device info Page for live monitoring Device Single device output.
         </description>
-        <description xml:lang="cn">
+        <description xml:lang="zh">
         提供首页、设备、我的 导航页。
         提供设备信息页，实时监控单个设备产量。
         </description>               
@@ -24,7 +25,7 @@
         <description xml:lang="en">
         Fix some bug.
         </description>
-        <description xml:lang="cn">
+        <description xml:lang="zh">
         修改一些Bug1。
         修改一些Bug2。
         </description>               
