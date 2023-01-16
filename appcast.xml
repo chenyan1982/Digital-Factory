@@ -3,13 +3,31 @@
   <channel>
     <title>Digital Factory App - Appcast</title>
     <item>
+        <title>Version 0.0.1</title>
+        <sparkle:version>0.0.1</sparkle:version>
+        <sparkle:informationalUpdate />
+        <description>
+        <![CDATA[ <ul> <li>Supply Home,Device,Profile Nav Pages.</li> <li>Supply Device info Page for live monitoring Device Single device output.</li> </ul> ]]>
+        </description>
+        <description xml:lang="cn">
+        <![CDATA[ <ul> <li>提供首页、设备、我的 导航页。</li> <li>提供设备信息页，实时监控单个设备产量。</li> </ul> ]]>
+        </description>               
+        <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
+        <enclosure url="https://www.4sync.com/web/directDownload/RBiAgTnu/W-dDGikd.30d75c224b2d59d1606e916c797e8761"
+            type="application/octet-stream" />
+    </item>
+    <item>
         <title>Version 0.0.2</title>
         <sparkle:version>0.0.2</sparkle:version>
         <sparkle:informationalUpdate />
-        <description>Fix a few bugs。</description>
-        <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <!-- <link>https://github.com/chenyan1982/Digital-Factory/releases</link> -->
-        <enclosure url="https://www.4sync.com/web/directDownload/xh6Xq3J2/W-dDGikd.db6a1a01dcba0f8bd3fff2efae09b570"
+        <description>
+        <![CDATA[ <ul> <li>Fix some bug.</li> </ul> ]]>
+        </description>
+        <description xml:lang="cn">
+        <![CDATA[ <ul> <li>修复一些Bug。</li> </ul> ]]>
+        </description>               
+        <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
+        <enclosure url="https://www.4sync.com/web/directDownload/MaYKGBG6/W-dDGikd.835aa571be740bcef89b66a0ba7f5fab"
             type="application/octet-stream" />
     </item>
   </channel>
