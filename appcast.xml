@@ -15,7 +15,7 @@
         提供设备信息页，实时监控单个设备产量。
         </description>               
         <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
-        <enclosure url="https://www.4sync.com/web/directDownload/sdqOlqrf/W-dDGikd.5fcee3639f46a08a0029a2625995d145" sparkle:os="android"
+        <enclosure url="https://github.com/chenyan1982/Digital-Factory/releases/download/v0.0.1/app-release.apk" sparkle:os="android"
             type="application/octet-stream" />
     </item>
     <item>
@@ -26,25 +26,10 @@
         Fix some bug.
         </description> 
         <description xml:lang="cn">
-        修改一些Bug1。
-        修改一些Bug2。
+        修改一些Bug。
         </description>              
         <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
-        <enclosure url="https://www.4sync.com/web/directDownload/gs0qpzBw/W-dDGikd.f8408c447934476450c71a3afce5b62c" sparkle:os="android"
-            type="application/octet-stream" />
-    </item>
-    <item>
-        <title>Version 0.0.3</title>
-        <sparkle:version>0.0.3</sparkle:version>
-        <sparkle:informationalUpdate />
-        <description>
-        Disable Sign Up & Sign In.
-        </description> 
-        <description xml:lang="cn">
-        取消注册和登录。
-        </description>              
-        <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
-        <enclosure url="https://www.4sync.com/web/directDownload/xdf3A9ez/W-dDGikd.cd76b9b103943b1b67d9e8a2d1a1aa33" sparkle:os="android"
+        <enclosure url="https://github.com/chenyan1982/Digital-Factory/releases/download/v0.0.1/app-release.apk" sparkle:os="android"
             type="application/octet-stream" />
     </item>    
   </channel>
