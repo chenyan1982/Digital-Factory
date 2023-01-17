@@ -3,6 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:upgrader/upgrader.dart';
 import 'auth/firebase_user_provider.dart';
 import 'auth/auth_util.dart';
 
@@ -21,6 +22,9 @@ void main() async {
   await Firebase.initializeApp();
   await SupaFlow.initialize();
   await FlutterFlowTheme.initialize();
+
+  // Only call clearSavedSettings() during testing to reset internal values.
+  await Upgrader.clearSavedSettings(); // REMOVE this for release builds
 
   final appState = FFAppState(); // Initialize FFAppState
 
@@ -84,6 +88,10 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    final appcastURL =
+        'https://raw.githubusercontent.com/larryaasen/upgrader/master/test/testappcast.xml';
+    final cfg = AppcastConfiguration(url: appcastURL, supportedOS: ['android']);
+
     return MaterialApp.router(
       title: 'digital-factory',
       localizationsDelegates: [
