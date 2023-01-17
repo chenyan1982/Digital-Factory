@@ -33,5 +33,19 @@
         <enclosure url="https://www.4sync.com/web/directDownload/MaYKGBG6/W-dDGikd.835aa571be740bcef89b66a0ba7f5fab" sparkle:os="android"
             type="application/octet-stream" />
     </item>
+    <item>
+        <title>Version 0.0.3</title>
+        <sparkle:version>0.0.3</sparkle:version>
+        <sparkle:informationalUpdate />
+        <description>
+        Disable Sign Up & Sign In.
+        </description> 
+        <description xml:lang="cn">
+        取消注册和登录。
+        </description>              
+        <pubDate>Sat, 26 Jul 2023 15:20:11</pubDate>
+        <enclosure url="https://www.4sync.com/web/directDownload/MaYKGBG6/W-dDGikd.835aa571be740bcef89b66a0ba7f5fab" sparkle:os="android"
+            type="application/octet-stream" />
+    </item>    
   </channel>
 </rss>
