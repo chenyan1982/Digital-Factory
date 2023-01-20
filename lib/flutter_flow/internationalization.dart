@@ -12,7 +12,7 @@ class FFLocalizations {
   static FFLocalizations of(BuildContext context) =>
       Localizations.of<FFLocalizations>(context, FFLocalizations)!;
 
-  static List<String> languages() => ['en', 'zh_Hans', 'ja', 'fr', 'de'];
+  static List<String> languages() => ['en', 'zh_Hans'];
 
   static late SharedPreferences _prefs;
   static Future initialize() async =>
@@ -29,17 +29,17 @@ class FFLocalizations {
       ? languages().indexOf(languageCode)
       : 0;
 
-  String getText(String key) =>
-      (kTranslationsMap[key] ?? {})[locale.toString()] ?? '';
+  String getText(String key, {String? defaultValue}) {
+    String result = (kTranslationsMap[key] ?? {})[locale.toString()] ??
+        (defaultValue ?? '');
+    return result;
+  }
 
   String getVariableText({
     String? enText = '',
     String? zh_HansText = '',
-    String? jaText = '',
-    String? frText = '',
-    String? deText = '',
   }) =>
-      [enText, zh_HansText, jaText, frText, deText][languageIndex] ?? '';
+      [enText, zh_HansText][languageIndex] ?? '';
 }
 
 class FFLocalizationsDelegate extends LocalizationsDelegate<FFLocalizations> {

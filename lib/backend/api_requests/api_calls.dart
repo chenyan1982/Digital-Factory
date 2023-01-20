@@ -76,6 +76,25 @@ class SingleDeviceOutputAggregationCall {
   }
 }
 
+class AllDeviceOutputCall {
+  static Future<ApiCallResponse> call() {
+    final body = '''{}''';
+    return ApiManager.instance.makeApiCall(
+      callName: 'allDeviceOutput',
+      apiUrl: '${IotGroup.baseUrl}/allDeviceOutput',
+      callType: ApiCallType.POST,
+      headers: {...IotGroup.headers},
+      params: {},
+      body: body,
+      bodyType: BodyType.JSON,
+      returnBody: true,
+      encodeBodyUtf8: false,
+      decodeUtf8: false,
+      cache: false,
+    );
+  }
+}
+
 class ApiPagingParams {
   int nextPageNumber = 0;
   int numItems = 0;
